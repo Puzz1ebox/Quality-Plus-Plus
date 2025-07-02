@@ -19,6 +19,7 @@ Generalized Space-Gambling Probabilities:
     line-height: 1.6;
     table-layout:fixed;
     width:1150px;
+    max-width: 1150px;
     align-items: center;
     justify-contents: center;
     white-space: nowrap; 
@@ -197,6 +198,7 @@ Fixed Space-Gambling Probabilities (Assuming 24.8% Quality)
     line-height: 1.6;
     table-layout:fixed;
     width:1150px;
+    max-width: 1150px;
     align-items: center;
     justify-contents: center;
     white-space: nowrap; 
