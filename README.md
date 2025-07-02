@@ -17,10 +17,12 @@ Generalized Space-Gambling Probabilities:
     background-color: #2b2b2b;
     color: #c1c1c1;
     line-height: 1.6;
-    width:200%;
-    table-layout:auto;
+    table-layout:fixed;
+    width:1150px;
+    max-width: 1150px;
     align-items: center;
     justify-contents: center;
+    max-width: 1150px;
     white-space: nowrap; 
     overflow: hidden; 
     text-overflow: ellipsis;
@@ -29,7 +31,7 @@ Generalized Space-Gambling Probabilities:
   <thead>
     <tr>
       <th style="
-          width: auto;
+          width: fit-content;
           background: linear-gradient(
             to top right,
             #3a3a3a 49%,
