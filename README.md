@@ -376,7 +376,7 @@ Reference for how final stats are calculated: https://lua-api.factorio.com/lates
 
 It would be wise to reference the default values for many of these properties. Most are dependant on level.
 
------------------------------------------- Stats ------------------------------------------
+
 
     Legendary (Reference)
         Level: 5
@@ -412,5 +412,5 @@ It would be wise to reference the default values for many of these properties. M
         science_pack_drain_multiplier: 80/100
         crafting_machine_energy_usage_multiplier: 1/4
 
----------------------------------------- End Stats ----------------------------------------
+
 
