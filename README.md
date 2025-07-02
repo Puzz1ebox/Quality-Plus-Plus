@@ -14,7 +14,7 @@ Generalized Space-Gambling Probabilities:
 <table class="wikitable" style="
    display: inline-table;
   table-layout: fixed;
-  width: 100%;
+  width: fit-content;
   vertical-align: middle;
 ">
   <thead>
