@@ -10,183 +10,135 @@ Looking for testers to determine if this is balanced.
 
 Generalized Space-Gambling Probabilities:
 
-
-<table class="wikitable" style="
-    border-collapse: collapse;
-    text-align: center;
-    background-color: #2b2b2b;
-    color: #c1c1c1;
-    line-height: 1.6;
-    table-layout:fixed;
-    width:1150px;
-    max-width: 1150px;
-    align-items: center;
-    justify-contents: center;
-    white-space: nowrap; 
-    overflow: hidden; 
-    text-overflow: ellipsis;
-    font-size: 0.5em;
-">
+<table class="wikitable" style="border-collapse:collapse;text-align:center;background-color:#2b2b2b;color:#c1c1c1;line-height:1.6;table-layout:fixed;width:1150px;max-width:1150px;align-items:center;justify-contents:center;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-size:0.5em;">
   <thead>
     <tr>
-      <th style="
-          width: auto;
-          background: linear-gradient(
-            to top right,
-            #3a3a3a 49%,
-            #2b2b2b 50%,
-            #3a3a3a 51%
-          );
-          border: 1px solid #444444;
-          vertical-align: middle;
-          align-items: center;
-          justify-contents: center;
-          position: relative;
-        ">
-        <div style="margin-right:0.25em; text-align:right; font-size:0.8em; padding:1px;">Input /</div>
-        <div style="margin-left:0.25em; text-align:left;  font-size:0.8em; padding:1px;">Output</div>
+      <th style="width:auto;background:linear-gradient(to top right,#3a3a3a 49%,#2b2b2b 50%,#3a3a3a 51%);border:1px solid #444444;vertical-align:middle;align-items:center;justify-contents:center;position:relative;">
+        <div style="margin-right:0.25em;text-align:right;font-size:0.8em;padding:1px;">Input /</div>
+        <div style="margin-left:0.25em;text-align:left;font-size:0.8em;padding:1px;">Output</div>
       </th>
-      <th style="border:1px solid #444444; background-color:#3a3a3a; padding:1px; vertical-align: middle; text-align: center;">
-        <img src="./graphics/std-qualities/normal.png" width="32" height="32" alt="Normal" />
-      </th>
-      <th style="border:1px solid #444444; background-color:#3a3a3a; padding:1px; vertical-align: middle; text-align: center;">
-        <img src="./graphics/std-qualities/uncommon.png" width="32" height="32" alt="Uncommon" />
-      </th>
-      <th style="border:1px solid #444444; background-color:#3a3a3a; padding:1px; vertical-align: middle; text-align: center;">
-        <img src="./graphics/std-qualities/rare.png" width="32" height="32" alt="Rare" />
-      </th>
-      <th style="border:1px solid #444444; background-color:#3a3a3a; padding:1px; vertical-align: middle; text-align: center;">
-        <img src="./graphics/std-qualities/epic.png" width="32" height="32" alt="Epic" />
-      </th>
-      <th style="border:1px solid #444444; background-color:#3a3a3a; padding:1px; vertical-align: middle; text-align: center;">
-        <img src="./graphics/std-qualities/legendary.png" width="32" height="32" alt="Legendary" />
-      </th>
-      <th style="border:1px solid #444444; background-color:#3a3a3a; padding:1px; vertical-align: middle; text-align: center;">
-        <img src="./graphics/icons/quality-mythical.png" width="32" height="32" alt="Mythical" />
-      </th>
-      <th style="border:1px solid #444444; background-color:#3a3a3a; padding:1px; vertical-align: middle; text-align: center;">
-        <img src="./graphics/icons/quality-masterwork.png" width="32" height="32" alt="Masterwork" />
-      </th>
-      <th style="border:1px solid #444444; background-color:#3a3a3a; padding:1px; vertical-align: middle; text-align: center;">
-        <img src="./graphics/icons/quality-wonderous.png" width="32" height="32" alt="Wonderous" />
-      </th>
-      <th style="border:1px solid #444444; background-color:#3a3a3a; padding:1px; vertical-align: middle; text-align: center;">
-        <img src="./graphics/icons/quality-artifactual.png" width="32" height="32" alt="Artifactual" />
-      </th>
+      <th style="border:1px solid #444444;background-color:#3a3a3a;padding:1px;vertical-align:middle;text-align:center;"><img src="./graphics/std-qualities/normal.png" width="32" height="32" alt="Normal" /></th>
+      <th style="border:1px solid #444444;background-color:#3a3a3a;padding:1px;vertical-align:middle;text-align:center;"><img src="./graphics/std-qualities/uncommon.png" width="32" height="32" alt="Uncommon" /></th>
+      <th style="border:1px solid #444444;background-color:#3a3a3a;padding:1px;vertical-align:middle;text-align:center;"><img src="./graphics/std-qualities/rare.png" width="32" height="32" alt="Rare" /></th>
+      <th style="border:1px solid #444444;background-color:#3a3a3a;padding:1px;vertical-align:middle;text-align:center;"><img src="./graphics/std-qualities/epic.png" width="32" height="32" alt="Epic" /></th>
+      <th style="border:1px solid #444444;background-color:#3a3a3a;padding:1px;vertical-align:middle;text-align:center;"><img src="./graphics/std-qualities/legendary.png" width="32" height="32" alt="Legendary" /></th>
+      <th style="border:1px solid #444444;background-color:#3a3a3a;padding:1px;vertical-align:middle;text-align:center;"><img src="./graphics/icons/quality-mythical.png" width="32" height="32" alt="Mythical" /></th>
+      <th style="border:1px solid #444444;background-color:#3a3a3a;padding:1px;vertical-align:middle;text-align:center;"><img src="./graphics/icons/quality-masterwork.png" width="32" height="32" alt="Masterwork" /></th>
+      <th style="border:1px solid #444444;background-color:#3a3a3a;padding:1px;vertical-align:middle;text-align:center;"><img src="./graphics/icons/quality-wonderous.png" width="32" height="32" alt="Wonderous" /></th>
+      <th style="border:1px solid #444444;background-color:#3a3a3a;padding:1px;vertical-align:middle;text-align:center;"><img src="./graphics/icons/quality-artifactual.png" width="32" height="32" alt="Artifactual" /></th>
     </tr>
   </thead>
-  <tbody>    <tr>
-      <th style="border:1px solid #444444; background-color:#3a3a3a; padding:8px; vertical-align: middle; text-align: center;">
-        <img src="./graphics/std-qualities/normal.png" width="32" height="32" alt="Normal"  />
-      </th>
-        <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">1 – Q</td>
-        <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">Q * 9/10</td>
-        <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">Q * 9/100</td>
-        <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">Q * 9/1000</td>
-        <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">Q * 9/10000</td>
-        <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">Q * 9/100000</td>
-        <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">Q * 9/1000000</td>
-        <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">Q * 9/10000000</td>
-        <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">Q * 1/10000000</td>    </tr>    <tr>
-      <th style="border:1px solid #444444; background-color:#3a3a3a; padding:8px; vertical-align: middle; text-align: center;">
-        <img src="./graphics/std-qualities/uncommon.png" width="32" height="32" alt="Uncommon"  />
-      </th>
-        <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">–</td>
-        <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">1 – Q</td>
-        <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">Q * 9/10</td>
-        <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">Q * 9/100</td>
-        <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">Q * 9/1000</td>
-        <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">Q * 9/10000</td>
-        <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">Q * 9/100000</td>
-        <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">Q * 9/1000000</td>
-        <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">Q * 1/1000000</td>    </tr>    <tr>
-      <th style="border:1px solid #444444; background-color:#3a3a3a; padding:8px; vertical-align: middle; text-align: center;">
-        <img src="./graphics/std-qualities/rare.png" width="32" height="32" alt="Rare"  />
-      </th>
-        <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">–</td>
-        <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">–</td>
-        <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">1 – Q</td>
-        <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">Q * 9/10</td>
-        <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">Q * 9/100</td>
-        <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">Q * 9/1000</td>
-        <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">Q * 9/10000</td>
-        <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">Q * 9/100000</td>
-        <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">Q * 1/100000</td>    </tr>    <tr>
-      <th style="border:1px solid #444444; background-color:#3a3a3a; padding:8px; vertical-align: middle; text-align: center;">
-        <img src="./graphics/std-qualities/epic.png" width="32" height="32" alt="Epic"  />
-      </th>
-        <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">–</td>
-        <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">–</td>
-        <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">–</td>
-        <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">1 – Q</td>
-        <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">Q * 9/10</td>
-        <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">Q * 9/100</td>
-        <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">Q * 9/1000</td>
-        <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">Q * 9/10000</td>
-        <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">Q * 1/10000</td>    </tr>    <tr>
-      <th style="border:1px solid #444444; background-color:#3a3a3a; padding:8px; vertical-align: middle; text-align: center;">
-        <img src="./graphics/std-qualities/legendary.png" width="32" height="32" alt="Legendary"  />
-      </th>
-        <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">–</td>
-        <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">–</td>
-        <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">–</td>
-        <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">–</td>
-        <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">1 – Q</td>
-        <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">Q * 9/10</td>
-        <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">Q * 9/100</td>
-        <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">Q * 9/1000</td>
-        <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">Q * 1/1000</td>    </tr>    <tr>
-      <th style="border:1px solid #444444; background-color:#3a3a3a; padding:8px; vertical-align: middle; text-align: center;">
-        <img src="./graphics/icons/quality-mythical.png" width="32" height="32" alt="Mythical"  />
-      </th>
-        <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">–</td>
-        <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">–</td>
-        <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">–</td>
-        <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">–</td>
-        <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">–</td>
-        <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">1 – Q</td>
-        <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">Q * 9/10</td>
-        <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">Q * 9/100</td>
-        <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">Q * 1/100</td>    </tr>    <tr>
-      <th style="border:1px solid #444444; background-color:#3a3a3a; padding:8px; vertical-align: middle; text-align: center;">
-        <img src="./graphics/icons/quality-masterwork.png" width="32" height="32" alt="Masterwork"  />
-      </th>
-        <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">–</td>
-        <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">–</td>
-        <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">–</td>
-        <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">–</td>
-        <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">–</td>
-        <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">–</td>
-        <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">1 – Q</td>
-        <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">Q * 9/10</td>
-        <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">Q * 1/10</td>    </tr>    <tr>
-      <th style="border:1px solid #444444; background-color:#3a3a3a; padding:8px; vertical-align: middle; text-align: center;">
-        <img src="./graphics/icons/quality-wonderous.png" width="32" height="32" alt="Wonderous"  />
-      </th>
-        <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">–</td>
-        <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">–</td>
-        <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">–</td>
-        <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">–</td>
-        <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">–</td>
-        <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">–</td>
-        <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">–</td>
-        <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">1 – Q</td>
-        <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">Q</td>    </tr>    <tr>
-      <th style="border:1px solid #444444; background-color:#3a3a3a; padding:8px; vertical-align: middle; text-align: center;">
-        <img src="./graphics/icons/quality-artifactual.png" width="32" height="32" alt="Artifactual"  />
-      </th>
-        <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">–</td>
-        <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">–</td>
-        <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">–</td>
-        <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">–</td>
-        <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">–</td>
-        <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">–</td>
-        <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">–</td>
-        <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">–</td>
-        <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">1</td>    </tr>
+  <tbody>
+    <tr>
+      <th style="border:1px solid #444444;background-color:#3a3a3a;padding:8px;vertical-align:middle;text-align:center;"><img src="./graphics/std-qualities/normal.png" width="32" height="32" alt="Normal" /></th>
+      <td style="border:1px solid #444444;padding:4px;font-size:0.8em;">1 – Q</td>
+      <td style="border:1px solid #444444;padding:4px;font-size:0.8em;">Q×0.9</td>
+      <td style="border:1px solid #444444;padding:4px;font-size:0.8em;">Q×0.09</td>
+      <td style="border:1px solid #444444;padding:4px;font-size:0.8em;">Q×0.009</td>
+      <td style="border:1px solid #444444;padding:4px;font-size:0.8em;">Q×0.0009</td>
+      <td style="border:1px solid #444444;padding:4px;font-size:0.8em;">Q×0.00009</td>
+      <td style="border:1px solid #444444;padding:4px;font-size:0.8em;">Q×0.000009</td>
+      <td style="border:1px solid #444444;padding:4px;font-size:0.8em;">Q×0.0000009</td>
+      <td style="border:1px solid #444444;padding:4px;font-size:0.8em;">Q×0.0000001</td>
+    </tr>
+    <tr>
+      <th style="border:1px solid #444444;background-color:#3a3a3a;padding:8px;vertical-align:middle;text-align:center;"><img src="./graphics/std-qualities/uncommon.png" width="32" height="32" alt="Uncommon" /></th>
+      <td style="border:1px solid #444444;padding:4px;font-size:0.8em;">–</td>
+      <td style="border:1px solid #444444;padding:4px;font-size:0.8em;">1 – Q</td>
+      <td style="border:1px solid #444444;padding:4px;font-size:0.8em;">Q×0.9</td>
+      <td style="border:1px solid #444444;padding:4px;font-size:0.8em;">Q×0.09</td>
+      <td style="border:1px solid #444444;padding:4px;font-size:0.8em;">Q×0.009</td>
+      <td style="border:1px solid #444444;padding:4px;font-size:0.8em;">Q×0.0009</td>
+      <td style="border:1px solid #444444;padding:4px;font-size:0.8em;">Q×0.00009</td>
+      <td style="border:1px solid #444444;padding:4px;font-size:0.8em;">Q×0.000009</td>
+      <td style="border:1px solid #444444;padding:4px;font-size:0.8em;">Q×0.000001</td>
+    </tr>
+    <tr>
+      <th style="border:1px solid #444444;background-color:#3a3a3a;padding:8px;vertical-align:middle;text-align:center;"><img src="./graphics/std-qualities/rare.png" width="32" height="32" alt="Rare" /></th>
+      <td style="border:1px solid #444444;padding:4px;font-size:0.8em;">–</td>
+      <td style="border:1px solid #444444;padding:4px;font-size:0.8em;">–</td>
+      <td style="border:1px solid #444444;padding:4px;font-size:0.8em;">1 – Q</td>
+      <td style="border:1px solid #444444;padding:4px;font-size:0.8em;">Q×0.9</td>
+      <td style="border:1px solid #444444;padding:4px;font-size:0.8em;">Q×0.09</td>
+      <td style="border:1px solid #444444;padding:4px;font-size:0.8em;">Q×0.009</td>
+      <td style="border:1px solid #444444;padding:4px;font-size:0.8em;">Q×0.0009</td>
+      <td style="border:1px solid #444444;padding:4px;font-size:0.8em;">Q×0.00009</td>
+      <td style="border:1px solid #444444;padding:4px;font-size:0.8em;">Q×0.00001</td>
+    </tr>
+    <tr>
+      <th style="border:1px solid #444444;background-color:#3a3a3a;padding:8px;vertical-align:middle;text-align:center;"><img src="./graphics/std-qualities/epic.png" width="32" height="32" alt="Epic" /></th>
+      <td style="border:1px solid #444444;padding:4px;font-size:0.8em;">–</td>
+      <td style="border:1px solid #444444;padding:4px;font-size:0.8em;">–</td>
+      <td style="border:1px solid #444444;padding:4px;font-size:0.8em;">–</td>
+      <td style="border:1px solid #444444;padding:4px;font-size:0.8em;">1 – Q</td>
+      <td style="border:1px solid #444444;padding:4px;font-size:0.8em;">Q×0.9</td>
+      <td style="border:1px solid #444444;padding:4px;font-size:0.8em;">Q×0.09</td>
+      <td style="border:1px solid #444444;padding:4px;font-size:0.8em;">Q×0.009</td>
+      <td style="border:1px solid #444444;padding:4px;font-size:0.8em;">Q×0.0009</td>
+      <td style="border:1px solid #444444;padding:4px;font-size:0.8em;">Q×0.0001</td>
+    </tr>
+    <tr>
+      <th style="border:1px solid #444444;background-color:#3a3a3a;padding:8px;vertical-align:middle;text-align:center;"><img src="./graphics/std-qualities/legendary.png" width="32" height="32" alt="Legendary" /></th>
+      <td style="border:1px solid #444444;padding:4px;font-size:0.8em;">–</td>
+      <td style="border:1px solid #444444;padding:4px;font-size:0.8em;">–</td>
+      <td style="border:1px solid #444444;padding:4px;font-size:0.8em;">–</td>
+      <td style="border:1px solid #444444;padding:4px;font-size:0.8em;">–</td>
+      <td style="border:1px solid #444444;padding:4px;font-size:0.8em;">1 – Q</td>
+      <td style="border:1px solid #444444;padding:4px;font-size:0.8em;">Q×0.9</td>
+      <td style="border:1px solid #444444;padding:4px;font-size:0.8em;">Q×0.09</td>
+      <td style="border:1px solid #444444;padding:4px;font-size:0.8em;">Q×0.009</td>
+      <td style="border:1px solid #444444;padding:4px;font-size:0.8em;">Q×0.001</td>
+    </tr>
+    <tr>
+      <th style="border:1px solid #444444;background-color:#3a3a3a;padding:8px;vertical-align:middle;text-align:center;"><img src="./graphics/icons/quality-mythical.png" width="32" height="32" alt="Mythical" /></th>
+      <td style="border:1px solid #444444;padding:4px;font-size:0.8em;">–</td>
+      <td style="border:1px solid #444444;padding:4px;font-size:0.8em;">–</td>
+      <td style="border:1px solid #444444;padding:4px;font-size:0.8em;">–</td>
+      <td style="border:1px solid #444444;padding:4px;font-size:0.8em;">–</td>
+      <td style="border:1px solid #444444;padding:4px;font-size:0.8em;">–</td>
+      <td style="border:1px solid #444444;padding:4px;font-size:0.8em;">1 – Q</td>
+      <td style="border:1px solid #444444;padding:4px;font-size:0.8em;">Q×0.9</td>
+      <td style="border:1px solid #444444;padding:4px;font-size:0.8em;">Q×0.09</td>
+      <td style="border:1px solid #444444;padding:4px;font-size:0.8em;">Q×0.01</td>
+    </tr>
+    <tr>
+      <th style="border:1px solid #444444;background-color:#3a3a3a;padding:8px;vertical-align:middle;text-align:center;"><img src="./graphics/icons/quality-masterwork.png" width="32" height="32" alt="Masterwork" /></th>
+      <td style="border:1px solid #444444;padding:4px;font-size:0.8em;">–</td>
+      <td style="border:1px solid #444444;padding:4px;font-size:0.8em;">–</td>
+      <td style="border:1px solid #444444;padding:4px;font-size:0.8em;">–</td>
+      <td style="border:1px solid #444444;padding:4px;font-size:0.8em;">–</td>
+      <td style="border:1px solid #444444;padding:4px;font-size:0.8em;">–</td>
+      <td style="border:1px solid #444444;padding:4px;font-size:0.8em;">–</td>
+      <td style="border:1px solid #444444;padding:4px;font-size:0.8em;">1 – Q</td>
+      <td style="border:1px solid #444444;padding:4px;font-size:0.8em;">Q×0.9</td>
+      <td style="border:1px solid #444444;padding:4px;font-size:0.8em;">Q×0.1</td>
+    </tr>
+    <tr>
+      <th style="border:1px solid #444444;background-color:#3a3a3a;padding:8px;vertical-align:middle;text-align:center;"><img src="./graphics/icons/quality-wonderous.png" width="32" height="32" alt="Wonderous" /></th>
+      <td style="border:1px solid #444444;padding:4px;font-size:0.8em;">–</td>
+      <td style="border:1px solid #444444;padding:4px;font-size:0.8em;">–</td>
+      <td style="border:1px solid #444444;padding:4px;font-size:0.8em;">–</td>
+      <td style="border:1px solid #444444;padding:4px;font-size:0.8em;">–</td>
+      <td style="border:1px solid #444444;padding:4px;font-size:0.8em;">–</td>
+      <td style="border:1px solid #444444;padding:4px;font-size:0.8em;">–</td>
+      <td style="border:1px solid #444444;padding:4px;font-size:0.8em;">–</td>
+      <td style="border:1px solid #444444;padding:4px;font-size:0.8em;">75.20%</td>
+      <td style="border:1px solid #444444;padding:4px;font-size:0.8em;">24.80%</td>
+    </tr>
+    <tr>
+      <th style="border:1px solid #444444;background-color:#3a3a3a;padding:8px;vertical-align:middle;text-align:center;"><img src="./graphics/icons/quality-artifactual.png" width="32" height="32" alt="Artifactual" /></th>
+      <td style="border:1px solid #444444;padding:4px;font-size:0.8em;">–</td>
+      <td style="border:1px solid #444444;padding:4px;font-size:0.8em;">–</td>
+      <td style="border:1px solid #444444;padding:4px;font-size:0.8em;">–</td>
+      <td style="border:1px solid #444444;padding:4px;font-size:0.8em;">–</td>
+      <td style="border:1px solid #444444;padding:4px;font-size:0.8em;">–</td>
+      <td style="border:1px solid #444444;padding:4px;font-size:0.8em;">–</td>
+      <td style="border:1px solid #444444;padding:4px;font-size:0.8em;">–</td>
+      <td style="border:1px solid #444444;padding:4px;font-size:0.8em;">–</td>
+      <td style="border:1px solid #444444;padding:4px;font-size:0.8em;">100%</td>
+    </tr>
   </tbody>
-</table>    </tr>    </tr>
-
+</table>
 
 Fixed Space-Gambling Probabilities (Assuming 24.8% Quality)
 
@@ -201,7 +153,6 @@ Fixed Space-Gambling Probabilities (Assuming 24.8% Quality)
     max-width: 1150px;
     align-items: center;
     justify-contents: center;
-    max-width: 1150px;
     white-space: nowrap; 
     overflow: hidden; 
     text-overflow: ellipsis;
