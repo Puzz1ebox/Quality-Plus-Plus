@@ -8,4 +8,6 @@ The goal of this mod is to offer more options for late-game resource sinks witho
 
 Looking for testers to determine if this is balanced. 
 
+Note: This mod is compatible with other mods that unlock qualities under other various conditions.
+
 TODO: compile quality table to determine effective space-gambling rates.
