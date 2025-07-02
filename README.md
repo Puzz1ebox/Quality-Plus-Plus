@@ -25,6 +25,7 @@ Generalized Space-Gambling Probabilities:
     white-space: nowrap; 
     overflow: hidden; 
     text-overflow: ellipsis;
+    font-size: 0.5em;
 ">
   <thead>
     <tr>
@@ -188,7 +189,7 @@ Generalized Space-Gambling Probabilities:
 </table>    </tr>    </tr>
 
 
-Fixed Space-Gambling Probabilities (Assuming 24.8% Quality)
+Fixed Space-Gambling Probabilities (Assuming 24.8% Quality):
 
 <table class="wikitable" style="
     border-collapse: collapse;
@@ -204,6 +205,7 @@ Fixed Space-Gambling Probabilities (Assuming 24.8% Quality)
     white-space: nowrap; 
     overflow: hidden; 
     text-overflow: ellipsis;
+    font-size: 0.5em;
 ">
   <thead>
     <tr>
