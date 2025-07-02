@@ -6,7 +6,7 @@
   "author": "Puzz1ebox",
   "homepage": "",
   "license": "MIT",
-  "description": "This mod was designed to expand the existing quality system. It currently adds 4 different qualities to the game: Mythical, Masterwork, Wonderous, and Artifactual. The goal of this mod is to offer more options for late-game resource sinks without divesting far from the original Factorio intent or art style. Looking for testers to determine if this is balanced. TODO: compile quality table to determine effective space-gambling rates.",
+  "description": "This mod was designed to expand the existing quality system. \nIt currently adds 4 different qualities to the game: Mythical, Masterwork, Wonderous, and Artifactual. \nThe goal of this mod is to offer more options for late-game resource sinks without divesting far from the original Factorio intent or art style. \nLooking for testers to determine if this is balanced. ",
   "quality_required": true,
   "dependencies": [
     "base >= 2.0",
