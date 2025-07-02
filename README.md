@@ -2,7 +2,7 @@
 
 This mod was designed to expand the existing quality system. 
 
-It currently adds 4 different qualities to the game: Mythical, Masterwork, Wonderous, and Artifactual. 
+It currently adds 4 different qualities to the game: Mythical, Masterwork, Wondrous, and Artifactual. 
 
 The goal of this mod is to offer more options for late-game resource sinks without divesting far from the original Factorio intent or art style. 
 
@@ -68,7 +68,7 @@ Generalized Space-Gambling Probabilities:
         <img src="./graphics/icons/quality-masterwork.png" width="32" height="32" alt="Masterwork" />
       </th>
       <th style="border:1px solid #444444; background-color:#3a3a3a; padding:1px; vertical-align: middle; text-align: center;">
-        <img src="./graphics/icons/quality-wonderous.png" width="32" height="32" alt="Wonderous" />
+        <img src="./graphics/icons/quality-Wondrous.png" width="32" height="32" alt="Wondrous" />
       </th>
       <th style="border:1px solid #444444; background-color:#3a3a3a; padding:1px; vertical-align: middle; text-align: center;">
         <img src="./graphics/icons/quality-artifactual.png" width="32" height="32" alt="Artifactual" />
@@ -161,7 +161,7 @@ Generalized Space-Gambling Probabilities:
         <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">Q * 9/10</td>
         <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">Q * 1/10</td>    </tr>    <tr>
       <th style="border:1px solid #444444; background-color:#3a3a3a; padding:8px; vertical-align: middle; text-align: center;">
-        <img src="./graphics/icons/quality-wonderous.png" width="32" height="32" alt="Wonderous"  />
+        <img src="./graphics/icons/quality-Wondrous.png" width="32" height="32" alt="Wondrous"  />
       </th>
         <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">–</td>
         <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">–</td>
@@ -248,7 +248,7 @@ Fixed Space-Gambling Probabilities (Assuming 24.8% Quality)
         <img src="./graphics/icons/quality-masterwork.png" width="32" height="32" alt="Masterwork" />
       </th>
       <th style="border:1px solid #444444; background-color:#3a3a3a; padding:1px; vertical-align: middle; text-align: center;">
-        <img src="./graphics/icons/quality-wonderous.png" width="32" height="32" alt="Wonderous" />
+        <img src="./graphics/icons/quality-Wondrous.png" width="32" height="32" alt="Wondrous" />
       </th>
       <th style="border:1px solid #444444; background-color:#3a3a3a; padding:1px; vertical-align: middle; text-align: center;">
         <img src="./graphics/icons/quality-artifactual.png" width="32" height="32" alt="Artifactual" />
@@ -341,7 +341,7 @@ Fixed Space-Gambling Probabilities (Assuming 24.8% Quality)
       <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">22.3200%</td>
       <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">2.4800%</td>    </tr>    <tr>
       <th style="border:1px solid #444444; background-color:#3a3a3a; padding:8px; vertical-align: middle; text-align: center;">
-        <img src="./graphics/icons/quality-wonderous.png" width="32" height="32" alt="Wonderous" />
+        <img src="./graphics/icons/quality-Wondrous.png" width="32" height="32" alt="Wondrous" />
       </th>
       <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">–</td>
       <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">–</td>
@@ -395,7 +395,7 @@ It would be wise to reference the default values for many of these properties. M
         science_pack_drain_multiplier: 90/100
         crafting_machine_energy_usage_multiplier: 1/2
 
-    Wonderous
+    Wondrous
         Level: 14
         beacon_power_usage_multiplier: 1/12
         mining_drill_resource_drain_multiplier: 1/12

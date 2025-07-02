@@ -9,7 +9,7 @@ UnlockQualities = {
 	},
 	{
 		type = "unlock-quality",
-		quality = "wonderous"
+		quality = "Wondrous"
 	},
 	{
 		type = "unlock-quality",
@@ -39,7 +39,7 @@ data:extend({
 		level = 10,
 		order = "g",
 		color = {230, 11, 30, 255},
-		next = "wonderous",
+		next = "Wondrous",
 		next_probability = 0.1,
 		subgroup = "qualities",
 		icon = "__Quality-Plus-Plus__/graphics/icons/quality-masterwork.png",
@@ -50,14 +50,14 @@ data:extend({
 	},
 	{
 		type = "quality",
-		name = "wonderous",
+		name = "Wondrous",
 		level = 14,
 		order = "h",
 		color = {217, 13, 145, 255},
 		next = "artifactual",
 		next_probability = 0.05,
 		subgroup = "qualities",
-		icon = "__Quality-Plus-Plus__/graphics/icons/quality-wonderous.png",
+		icon = "__Quality-Plus-Plus__/graphics/icons/quality-Wondrous.png",
 		beacon_power_usage_multiplier = 1/12,
 		mining_drill_resource_drain_multiplier = 1/12,
 		science_pack_drain_multiplier = 86/100,
