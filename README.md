@@ -26,7 +26,6 @@ Generalized Space-Gambling Probabilities:
     overflow: hidden; 
     text-overflow: ellipsis;
     font-size: 0.5em;
-    max-width: 1150px;
 ">
   <thead>
     <tr>
@@ -203,11 +202,9 @@ Fixed Space-Gambling Probabilities (Assuming 24.8% Quality)
     max-width: 1150px;
     align-items: center;
     justify-contents: center;
-    max-width: 1150px;
     white-space: nowrap; 
     overflow: hidden; 
     text-overflow: ellipsis;
-    font-size: 0.5em;
 ">
   <thead>
     <tr>
@@ -375,8 +372,6 @@ Note: This mod is compatible with other mods that unlock qualities under other v
 Reference for how final stats are calculated: https://lua-api.factorio.com/latest/prototypes/QualityPrototype.html
 
 It would be wise to reference the default values for many of these properties. Most are dependant on level.
-
-
 
     Legendary (Reference)
         Level: 5
