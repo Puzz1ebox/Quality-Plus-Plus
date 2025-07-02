@@ -1,4 +1,4 @@
-require("__Quality-Plus__.prototypes.quality")
+require("__Quality-Plus-Plus__.prototypes.quality")
 
 local legendary_quality = data.raw.technology["legendary-quality"]
 if legendary_quality then

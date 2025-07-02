@@ -1,4 +1,4 @@
-require("__Quality-Plus__.prototypes.technology")
+require("__Quality-Plus-Plus__.prototypes.technology")
 
 local legendary = data.raw.quality["legendary"]
 legendary.next = "mythical"
