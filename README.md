@@ -12,18 +12,10 @@ Generalized Space-Gambling Probabilities:
 
 
 <table class="wikitable" style="
-    border-collapse: collapse;
-    text-align: center;
-    background-color: #2b2b2b;
-    color: #c1c1c1;
-    line-height: 1.6;
-    display:inline-flex;
-    align-items: center;
-    justify-contents: center;
-    white-space: nowrap; 
-    overflow: hidden; 
-    text-overflow: ellipsis;
-    font-size: 0.5em;
+   display: inline-table;
+  table-layout: fixed;
+  width: 100%;
+  vertical-align: middle;
 ">
   <thead>
     <tr>
