@@ -17,9 +17,13 @@ Generalized Space-Gambling Probabilities:
     background-color: #2b2b2b;
     color: #c1c1c1;
     line-height: 1.6;
-    table-layout:fixed;width:1150px;
+    table-layout:fixed;
+    width:1150px;
     align-items: center;
     justify-contents: center;
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis;
 ">
   <thead>
     <tr>
@@ -191,9 +195,13 @@ Fixed Space-Gambling Probabilities (Assuming 24.8% Quality)
     background-color: #2b2b2b;
     color: #c1c1c1;
     line-height: 1.6;
-    table-layout:fixed;width:1150px;
+    table-layout:fixed;
+    width:1150px;
     align-items: center;
     justify-contents: center;
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis;
 ">
   <thead>
     <tr>
