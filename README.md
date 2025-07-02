@@ -24,7 +24,7 @@ Generalized Space-Gambling Probabilities:
     justify-contents: center;
     max-width: 1150px;
     white-space: nowrap; 
-    overflow: hidden; 
+    overflow:auto;
     text-overflow: ellipsis;
     font-size: 0.5em;
 ">
@@ -204,7 +204,7 @@ Fixed Space-Gambling Probabilities (Assuming 24.8% Quality)
     justify-contents: center;
     max-width: 1150px;
     white-space: nowrap; 
-    overflow: hidden; 
+    overflow:auto;
     text-overflow: ellipsis;
     font-size: 0.5em;
 ">
