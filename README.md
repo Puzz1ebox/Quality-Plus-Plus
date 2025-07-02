@@ -19,7 +19,7 @@ Generalized Space-Gambling Probabilities:
     line-height: 1.6;
     table-layout:fixed;
     width:1150px;
-    max-width: 1150px;
+    max-width: fit-content;
     align-items: center;
     justify-contents: center;
     white-space: nowrap; 
