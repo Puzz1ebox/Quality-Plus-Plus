@@ -17,9 +17,8 @@ Generalized Space-Gambling Probabilities:
     background-color: #2b2b2b;
     color: #c1c1c1;
     line-height: 1.6;
-    table-layout:fixed;
     width:1150px;
-    max-width: fit-content;
+    max-width:3000px;
     align-items: center;
     justify-contents: center;
     white-space: nowrap; 
@@ -77,7 +76,7 @@ Generalized Space-Gambling Probabilities:
     </tr>
   </thead>
   <tbody>    <tr>
-      <th style="border:1px solid #444444; background-color:#3a3a3a; padding:8px; vertical-align: middle; text-align: center; style="white-space: nowrap;"">
+      <th style="border:1px solid #444444; background-color:#3a3a3a; padding:8px; vertical-align: middle; text-align: center;">
         <img src="./graphics/std-qualities/normal.png" width="32" height="32" alt="Normal"  />
       </th>
         <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">1 – Q</td>
