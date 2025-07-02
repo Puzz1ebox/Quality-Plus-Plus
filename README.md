@@ -1,4 +1,4 @@
-# Quality+
+# Quality-Plus
 
 This mod was designed to expand the existing quality system. 
 
