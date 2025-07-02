@@ -10,7 +10,7 @@ Looking for testers to determine if this is balanced.
 
 Generalized Space-Gambling Probabilities:
 
-<div style="overflow-x:auto; max-width:1150px;">
+<div style="overflow:auto;">
 <table style="
     border-collapse: collapse;
     text-align: center;
@@ -191,7 +191,7 @@ Generalized Space-Gambling Probabilities:
 
 Fixed Space-Gambling Probabilities (Assuming 24.8% Quality)
 
-<div style="overflow-x:auto; max-width:1150px;">
+<div style="overflow:auto;">
 <table style="
     border-collapse: collapse;
     text-align: center;
