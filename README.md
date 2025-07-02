@@ -10,7 +10,7 @@ Looking for testers to determine if this is balanced.
 
 Generalized Space-Gambling Probabilities:
 
-
+<div style="overflow-x:scroll;; width:830px; max-width:830px;">
 <table style="
     border-collapse: collapse;
     text-align: center;
@@ -19,18 +19,18 @@ Generalized Space-Gambling Probabilities:
     line-height: 1.6;
     table-layout:fixed;
     width:1150px;
-    max-width: 1150px;
+    max-width: max-content;
     align-items: center;
     justify-contents: center;
+    max-width: 1150px;
     white-space: nowrap; 
-    overflow: hidden; 
-    text-overflow: ellipsis;
+    overflow-x: scroll;
     font-size: 0.5em;
 ">
   <thead>
     <tr>
       <th style="
-          width: auto;
+          width: fit-content;
           background: linear-gradient(
             to top right,
             #3a3a3a 49%,
@@ -186,10 +186,11 @@ Generalized Space-Gambling Probabilities:
         <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">1</td>    </tr>
   </tbody>
 </table>    </tr>    </tr>
-
+</div>
 
 Fixed Space-Gambling Probabilities (Assuming 24.8% Quality)
 
+<div style="overflow-x:scroll;; width:830px; max-width:830px;">
 <table style="
     border-collapse: collapse;
     text-align: center;
@@ -203,8 +204,7 @@ Fixed Space-Gambling Probabilities (Assuming 24.8% Quality)
     justify-contents: center;
     max-width: 1150px;
     white-space: nowrap; 
-    overflow: hidden; 
-    text-overflow: ellipsis;
+    overflow-x: scroll;
     font-size: 0.5em;
 ">
   <thead>
@@ -366,6 +366,7 @@ Fixed Space-Gambling Probabilities (Assuming 24.8% Quality)
       <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">100.0000%</td>    </tr>    </tr>
   </tbody>
 </table>
+</div>
 
 Note: This mod is compatible with other mods that unlock qualities under other various conditions.
 
