@@ -10,7 +10,7 @@ Looking for testers to determine if this is balanced.
 
 Generalized Space-Gambling Probabilities:
 
-
+<div style="overflow-x:auto; max-width:1150px;">
 <table style="
     border-collapse: collapse;
     text-align: center;
@@ -187,10 +187,11 @@ Generalized Space-Gambling Probabilities:
         <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">1</td>    </tr>
   </tbody>
 </table>    </tr>    </tr>
-
+</div>
 
 Fixed Space-Gambling Probabilities (Assuming 24.8% Quality)
 
+<div style="overflow-x:auto; max-width:1150px;">
 <table style="
     border-collapse: collapse;
     text-align: center;
@@ -367,6 +368,7 @@ Fixed Space-Gambling Probabilities (Assuming 24.8% Quality)
       <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">100.0000%</td>    </tr>    </tr>
   </tbody>
 </table>
+</div>
 
 Note: This mod is compatible with other mods that unlock qualities under other various conditions.
 
