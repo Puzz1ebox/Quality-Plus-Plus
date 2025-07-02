@@ -11,16 +11,21 @@ Looking for testers to determine if this is balanced.
 Generalized Space-Gambling Probabilities:
 
 
-
 <table class="wikitable" style="
     border-collapse: collapse;
     text-align: center;
     background-color: #2b2b2b;
     color: #c1c1c1;
     line-height: 1.6;
-    table-layout:fixed;width:1150px;
+    table-layout:fixed;
+    width:1150px;
+    max-width: 1150px;
     align-items: center;
     justify-contents: center;
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis;
+    font-size: 0.5em;
     max-width: 1150px;
 ">
   <thead>
@@ -184,7 +189,8 @@ Generalized Space-Gambling Probabilities:
   </tbody>
 </table>    </tr>    </tr>
 
-Fixed Space-Gambling Probabilities (Assuming 24.8% Quality):
+
+Fixed Space-Gambling Probabilities (Assuming 24.8% Quality)
 
 <table class="wikitable" style="
     border-collapse: collapse;
@@ -192,10 +198,16 @@ Fixed Space-Gambling Probabilities (Assuming 24.8% Quality):
     background-color: #2b2b2b;
     color: #c1c1c1;
     line-height: 1.6;
-    table-layout:fixed;width:1150px;
+    table-layout:fixed;
+    width:1150px;
+    max-width: 1150px;
     align-items: center;
     justify-contents: center;
     max-width: 1150px;
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis;
+    font-size: 0.5em;
 ">
   <thead>
     <tr>
@@ -360,4 +372,45 @@ Fixed Space-Gambling Probabilities (Assuming 24.8% Quality):
 
 Note: This mod is compatible with other mods that unlock qualities under other various conditions.
 
-TODO: compile quality table to determine effective space-gambling rates.
+Reference for how final stats are calculated: https://lua-api.factorio.com/latest/prototypes/QualityPrototype.html
+
+It would be wise to reference the default values for many of these properties. Most are dependant on level.
+
+------------------------------------------ Stats ------------------------------------------
+
+    Legendary (Reference)
+        Level: 5
+        beacon_power_usage_multiplier: 1/6
+        mining_drill_resource_drain_multiplier: 1/6
+        science_pack_drain_multiplier: 95/100
+
+    Mythical
+        Level: 7
+        beacon_power_usage_multiplier: 1/8
+        mining_drill_resource_drain_multiplier: 1/8
+        science_pack_drain_multiplier: 93/100
+        crafting_machine_energy_usage_multiplier: 2/3
+
+    Masterwork
+        Level: 10
+        beacon_power_usage_multiplier: 1/10
+        mining_drill_resource_drain_multiplier: 1/10
+        science_pack_drain_multiplier: 90/100
+        crafting_machine_energy_usage_multiplier: 1/2
+
+    Wonderous
+        Level: 14
+        beacon_power_usage_multiplier: 1/12
+        mining_drill_resource_drain_multiplier: 1/12
+        science_pack_drain_multiplier: 86/100
+        crafting_machine_energy_usage_multiplier: 1/3
+
+    Artifactual
+        Level: 20
+        beacon_power_usage_multiplier: 1/20
+        mining_drill_resource_drain_multiplier: 1/20
+        science_pack_drain_multiplier: 80/100
+        crafting_machine_energy_usage_multiplier: 1/4
+
+---------------------------------------- End Stats ----------------------------------------
+
