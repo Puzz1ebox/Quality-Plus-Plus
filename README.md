@@ -411,6 +411,6 @@ It would be wise to reference the default values for many of these properties. M
 
 
 
-<h3>Built-in Compatibility</h3>
-  Almost anything that unlocks qualities right from the get-go.
-  QualityBioLab: https://mods.factorio.com/mod/QualityBioLab (by request)
+  <h3>Built-in Compatibility</h3>
+      Almost anything that unlocks qualities right from the get-go.
+      QualityBioLab: https://mods.factorio.com/mod/QualityBioLab (by request)
