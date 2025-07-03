@@ -1,5 +1,10 @@
 {
     "quality": [
         ["wonderous", "wondrous"]
+    ],
+
+    "recipe": [
+        ["quality-wonderous", "quality-wondrous"],
+        ["wonderous", "wondrous"]
     ]
 }
