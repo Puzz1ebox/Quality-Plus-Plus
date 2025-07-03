@@ -1,22 +1,6 @@
-UnlockQualities = {
-	{
-		type = "unlock-quality",
-		quality = "mythical"
-	},
-	{
-		type = "unlock-quality",
-		quality = "masterwork"
-	},
-	{
-		type = "unlock-quality",
-		quality = "wondrous"
-	},
-	{
-		type = "unlock-quality",
-		quality = "artifactual"
-	}
-}
-
+if not mods["QualityBioLab"] then
+    return
+end
 
 data:extend({
     {
@@ -31,7 +15,7 @@ data:extend({
 		icon = "__Quality-Plus-Plus__/graphics/icons/quality-mythical.png",
 		beacon_power_usage_multiplier = 1/8,
 		mining_drill_resource_drain_multiplier = 1/8,
-		science_pack_drain_multiplier = 93/100,
+		science_pack_drain_multiplier = 40/100,
 		crafting_machine_energy_usage_multiplier = 2/3,
 	},
 	{
@@ -46,7 +30,7 @@ data:extend({
 		icon = "__Quality-Plus-Plus__/graphics/icons/quality-masterwork.png",
 		beacon_power_usage_multiplier = 1/10,
 		mining_drill_resource_drain_multiplier = 1/10,
-		science_pack_drain_multiplier = 90/100,
+		science_pack_drain_multiplier = 30/100,
 		crafting_machine_energy_usage_multiplier = 1/2,
 	},
 	{
@@ -61,7 +45,7 @@ data:extend({
 		icon = "__Quality-Plus-Plus__/graphics/icons/quality-wondrous.png",
 		beacon_power_usage_multiplier = 1/12,
 		mining_drill_resource_drain_multiplier = 1/12,
-		science_pack_drain_multiplier = 86/100,
+		science_pack_drain_multiplier = 20/100,
 		crafting_machine_energy_usage_multiplier = 1/3,
 	},
 	{
@@ -75,9 +59,7 @@ data:extend({
 		icon = "__Quality-Plus-Plus__/graphics/icons/quality-artifactual.png",
 		beacon_power_usage_multiplier = 1/20,
 		mining_drill_resource_drain_multiplier = 1/20,
-		science_pack_drain_multiplier = 80/100,
+		science_pack_drain_multiplier = 10/100,
 		crafting_machine_energy_usage_multiplier = 1/4,
 	},
 })
-
-
