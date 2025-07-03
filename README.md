@@ -372,6 +372,7 @@ Reference for how final stats are calculated: https://lua-api.factorio.com/lates
 
 It would be wise to reference the default values for many of these properties. Most are dependant on level.
 
+  <h3>Stats and Modifications</h3>
 
     Legendary (Reference)
         Level: 5
