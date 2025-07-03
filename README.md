@@ -18,7 +18,7 @@ Generalized Space-Gambling Probabilities:
       color: #c1c1c1;
       line-height: 1.6;
       table-layout:fixed;
-      width:1150px;
+      width:max-content;
       max-width: max-content;
       align-items: center;
       justify-contents: center;
