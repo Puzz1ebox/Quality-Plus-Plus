@@ -9,7 +9,7 @@ UnlockQualities = {
 	},
 	{
 		type = "unlock-quality",
-		quality = "Wondrous"
+		quality = "wondrous"
 	},
 	{
 		type = "unlock-quality",
@@ -50,7 +50,7 @@ data:extend({
 	},
 	{
 		type = "quality",
-		name = "Wondrous",
+		name = "wondrous",
 		level = 14,
 		order = "h",
 		color = {217, 13, 145, 255},
