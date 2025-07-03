@@ -190,7 +190,7 @@ Generalized Space-Gambling Probabilities:
 Fixed Space-Gambling Probabilities (Assuming 24.8% Quality)
 
 <div style="overflow-x:scroll; width:830px; max-width:830px;">
-  <table style="
+  <table tabindex="0" style="
       border-collapse: collapse;
       text-align: center;
       background-color: #2b2b2b;
