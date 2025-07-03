@@ -68,7 +68,7 @@ Generalized Space-Gambling Probabilities:
         <img src="./graphics/icons/quality-masterwork.png" width="32" height="32" alt="Masterwork" />
       </th>
       <th style="border:1px solid #444444; background-color:#3a3a3a; padding:1px; vertical-align: middle; text-align: center;">
-        <img src="./graphics/icons/quality-Wondrous.png" width="32" height="32" alt="Wondrous" />
+        <img src="./graphics/icons/quality-wondrous.png" width="32" height="32" alt="Wondrous" />
       </th>
       <th style="border:1px solid #444444; background-color:#3a3a3a; padding:1px; vertical-align: middle; text-align: center;">
         <img src="./graphics/icons/quality-artifactual.png" width="32" height="32" alt="Artifactual" />
@@ -161,7 +161,7 @@ Generalized Space-Gambling Probabilities:
         <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">Q * 9/10</td>
         <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">Q * 1/10</td>    </tr>    <tr>
       <th style="border:1px solid #444444; background-color:#3a3a3a; padding:8px; vertical-align: middle; text-align: center;">
-        <img src="./graphics/icons/quality-Wondrous.png" width="32" height="32" alt="Wondrous"  />
+        <img src="./graphics/icons/quality-wondrous.png" width="32" height="32" alt="Wondrous"  />
       </th>
         <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">–</td>
         <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">–</td>
@@ -248,7 +248,7 @@ Fixed Space-Gambling Probabilities (Assuming 24.8% Quality)
         <img src="./graphics/icons/quality-masterwork.png" width="32" height="32" alt="Masterwork" />
       </th>
       <th style="border:1px solid #444444; background-color:#3a3a3a; padding:1px; vertical-align: middle; text-align: center;">
-        <img src="./graphics/icons/quality-Wondrous.png" width="32" height="32" alt="Wondrous" />
+        <img src="./graphics/icons/quality-wondrous.png" width="32" height="32" alt="Wondrous" />
       </th>
       <th style="border:1px solid #444444; background-color:#3a3a3a; padding:1px; vertical-align: middle; text-align: center;">
         <img src="./graphics/icons/quality-artifactual.png" width="32" height="32" alt="Artifactual" />
@@ -341,7 +341,7 @@ Fixed Space-Gambling Probabilities (Assuming 24.8% Quality)
       <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">22.3200%</td>
       <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">2.4800%</td>    </tr>    <tr>
       <th style="border:1px solid #444444; background-color:#3a3a3a; padding:8px; vertical-align: middle; text-align: center;">
-        <img src="./graphics/icons/quality-Wondrous.png" width="32" height="32" alt="Wondrous" />
+        <img src="./graphics/icons/quality-wondrous.png" width="32" height="32" alt="Wondrous" />
       </th>
       <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">–</td>
       <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">–</td>
