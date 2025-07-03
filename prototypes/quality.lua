@@ -39,7 +39,7 @@ data:extend({
 		level = 10,
 		order = "g",
 		color = {230, 11, 30, 255},
-		next = "Wondrous",
+		next = "wondrous",
 		next_probability = 0.1,
 		subgroup = "qualities",
 		icon = "__Quality-Plus-Plus__/graphics/icons/quality-masterwork.png",
