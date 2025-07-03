@@ -29,7 +29,7 @@ Generalized Space-Gambling Probabilities:
     <thead>
       <tr>
         <th style="
-            width: fit-content;
+            width: auto;
             background: linear-gradient(
               to top right,
               #3a3a3a 49%,
