@@ -3,7 +3,8 @@ Version: 0.0.4
 Date: 02JUL25
   Changes:
     - Fixes for spelling errors.
-    - Added file for proper migration of qualities (Wonderous -> Wondrous)
+    - Added file for proper migration of qualities (Wonderous -> Wondrous).
+    - Do not be alarmed if you see recycling recipes change.
 ---------------------------------------------------------------------------------------------------
 Version: 0.0.3
 Date: 02JUL25
