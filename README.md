@@ -22,7 +22,6 @@ Generalized Space-Gambling Probabilities:
     max-width: max-content;
     align-items: center;
     justify-contents: center;
-    max-width: 1150px;
     white-space: nowrap; 
     overflow-x: scroll;
     font-size: 0.5em;
@@ -199,10 +198,9 @@ Fixed Space-Gambling Probabilities (Assuming 24.8% Quality)
     line-height: 1.6;
     table-layout:fixed;
     width:1150px;
-    max-width: 1150px;
+    max-width: max-content;
     align-items: center;
     justify-contents: center;
-    max-width: 1150px;
     white-space: nowrap; 
     overflow-x: scroll;
     font-size: 0.5em;
