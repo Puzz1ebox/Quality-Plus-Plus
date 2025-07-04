@@ -70,7 +70,7 @@ data:extend({
 		level = 20,
 		order = "i",
 		color = {98, 181, 179, 255},
-		next_probability = 0.1,
+		next_probability = 0.00,
 		subgroup = "qualities",
 		icon = "__Quality-Plus-Plus__/graphics/icons/quality-artifactual.png",
 		beacon_power_usage_multiplier = 1/20,

@@ -1,6 +1,11 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.0.7
+Date: 04JUL25
+  Changes:
+    - Exposed various settings so that users can tweak qualities to their liking.
+---------------------------------------------------------------------------------------------------
 Version: 0.0.6
-Date: 0eJUL25
+Date: 03JUL25
   Changes:
     - Added compatability patch for Customizable Quality Names.
 ---------------------------------------------------------------------------------------------------
