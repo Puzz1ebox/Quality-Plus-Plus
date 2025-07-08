@@ -363,7 +363,7 @@ Fixed Space-Gambling Probabilities (Assuming 24.8% Quality)
   </table>
 
 
-Note: This mod is compatible with other mods that unlock qualities under other various conditions.
+All qualities are able to be enabled/disabled and have their power modified as deemed necessary by the user.
 
 Reference for how final stats are calculated: https://lua-api.factorio.com/latest/prototypes/QualityPrototype.html
 
@@ -411,3 +411,4 @@ It would be wise to reference the default values for many of these properties. M
 
         - Almost anything that unlocks qualities right from the get-go
         - QualityBioLab: https://mods.factorio.com/mod/QualityBioLab (by request)
+        - Customizable Quality Names
