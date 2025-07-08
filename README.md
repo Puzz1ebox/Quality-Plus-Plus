@@ -45,19 +45,19 @@ Generalized Space-Gambling Probabilities:
           <div style="margin-left:0.25em; text-align:left;  font-size:0.8em; padding:1px;">Output</div>
         </th>
         <th style="border:1px solid #444444; background-color:#3a3a3a; padding:1px; vertical-align: middle; text-align: center;">
-          <img src="./graphics/std-qualities/quality-quality-normal.png" width="32" height="32" alt="Normal" />
+          <img src="./graphics/std-qualities/quality-normal.png" width="32" height="32" alt="Normal" />
         </th>
         <th style="border:1px solid #444444; background-color:#3a3a3a; padding:1px; vertical-align: middle; text-align: center;">
-          <img src="./graphics/std-qualities/quality-quality-uncommon.png" width="32" height="32" alt="Uncommon" />
+          <img src="./graphics/std-qualities/quality-uncommon.png" width="32" height="32" alt="Uncommon" />
         </th>
         <th style="border:1px solid #444444; background-color:#3a3a3a; padding:1px; vertical-align: middle; text-align: center;">
-          <img src="./graphics/std-qualities/quality-quality-rare.png" width="32" height="32" alt="Rare" />
+          <img src="./graphics/std-qualities/quality-rare.png" width="32" height="32" alt="Rare" />
         </th>
         <th style="border:1px solid #444444; background-color:#3a3a3a; padding:1px; vertical-align: middle; text-align: center;">
-          <img src="./graphics/std-qualities/quality-quality-epic.png" width="32" height="32" alt="Epic" />
+          <img src="./graphics/std-qualities/quality-epic.png" width="32" height="32" alt="Epic" />
         </th>
         <th style="border:1px solid #444444; background-color:#3a3a3a; padding:1px; vertical-align: middle; text-align: center;">
-          <img src="./graphics/std-qualities/quality-quality-legendary.png" width="32" height="32" alt="Legendary" />
+          <img src="./graphics/std-qualities/quality-legendary.png" width="32" height="32" alt="Legendary" />
         </th>
         <th style="border:1px solid #444444; background-color:#3a3a3a; padding:1px; vertical-align: middle; text-align: center;">
           <img src="./graphics/icons/quality-mythical.png" width="32" height="32" alt="Mythical" />
