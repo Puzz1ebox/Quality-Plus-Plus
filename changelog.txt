@@ -1,4 +1,14 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.0.8
+Date: 07JUL25
+  Changes:
+    - Allowed various qualities to be enabled/disabled.
+    - You can do this in the settings by checking/unchecking the box next to the qual's name.
+    - By default these values are true.
+    - Added logic to dynamically stitch together next quality choice.
+    - You can also "skip qualities" by enabling things in a strange order:
+      -  masterwork -> artifactual, would be how things progressed if you enabled only those quals.
+---------------------------------------------------------------------------------------------------
 Version: 0.0.7
 Date: 04JUL25
   Changes:

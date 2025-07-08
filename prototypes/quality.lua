@@ -1,31 +1,13 @@
-UnlockQualities = {
-	{
-		type = "unlock-quality",
-		quality = "mythical"
-	},
-	{
-		type = "unlock-quality",
-		quality = "masterwork"
-	},
-	{
-		type = "unlock-quality",
-		quality = "wondrous"
-	},
-	{
-		type = "unlock-quality",
-		quality = "artifactual"
-	}
-}
+local mod_qualities = {"mythical","masterwork","wondrous","artifactual"}
 
-
-data:extend({
-    {
+local quality_defs = {
+	mythical = {
 		type = "quality",
 		name = "mythical",
 		level = 7,
 		order = "f",
 		color = {214, 169, 32, 255},
-		next = "masterwork",
+		-- next = "masterwork",
 		next_probability = 0.1,
 		subgroup = "qualities",
 		icon = "__Quality-Plus-Plus__/graphics/icons/quality-mythical.png",
@@ -34,13 +16,13 @@ data:extend({
 		science_pack_drain_multiplier = 93/100,
 		crafting_machine_energy_usage_multiplier = 2/3,
 	},
-	{
+	masterwork = {
 		type = "quality",
 		name = "masterwork",
 		level = 10,
 		order = "g",
 		color = {230, 11, 30, 255},
-		next = "wondrous",
+		-- next = "wondrous",
 		next_probability = 0.1,
 		subgroup = "qualities",
 		icon = "__Quality-Plus-Plus__/graphics/icons/quality-masterwork.png",
@@ -49,13 +31,13 @@ data:extend({
 		science_pack_drain_multiplier = 90/100,
 		crafting_machine_energy_usage_multiplier = 1/2,
 	},
-	{
+	wondrous = {
 		type = "quality",
 		name = "wondrous",
 		level = 14,
 		order = "h",
 		color = {217, 13, 145, 255},
-		next = "artifactual",
+		-- next = "artifactual",
 		next_probability = 0.05,
 		subgroup = "qualities",
 		icon = "__Quality-Plus-Plus__/graphics/icons/quality-wondrous.png",
@@ -64,7 +46,7 @@ data:extend({
 		science_pack_drain_multiplier = 86/100,
 		crafting_machine_energy_usage_multiplier = 1/3,
 	},
-	{
+	artifactual = {
 		type = "quality",
 		name = "artifactual",
 		level = 20,
@@ -78,6 +60,33 @@ data:extend({
 		science_pack_drain_multiplier = 80/100,
 		crafting_machine_energy_usage_multiplier = 1/4,
 	},
-})
+}
 
+local enabled = {}
+for _, q in ipairs(mod_qualities) do
+  if settings.startup["sep-multiplier-header-m-"..q].value then
+    table.insert(enabled, q)
+  end
+end
 
+for _, q in ipairs(mod_qualities) do
+  local def = table.deepcopy(quality_defs[q])
+  def.hidden = true
+  data:extend{ def }
+end
+
+for idx, q in ipairs(enabled) do
+  local def = table.deepcopy(quality_defs[q])
+  local next_q = enabled[idx+1]
+  if next_q then
+    def.next = next_q
+	def.hidden = false
+  end
+  data:extend{ def }
+end
+
+local first_q = enabled[1]
+if first_q and data.raw.quality["legendary"] then
+  local legendary = data.raw.quality["legendary"]
+  legendary.next             = first_q
+end

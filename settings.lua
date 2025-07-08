@@ -58,10 +58,10 @@ for i, q in ipairs(mod_qualities) do
   data:extend({
     {
     type         = "bool-setting",
-    name         = "sep-multiplier-header-"..q,
+    name         = "sep-multiplier-header-m-"..q,
     setting_type = "startup",
     order        = i.. "-a-"..q,
-    default_value= false,
+    default_value= true,
     allow_blank   = true,
     localised_name = {"", "[font=default-bold]============ ".. firstToUpper(q) .." ============[/font]"}
     },
