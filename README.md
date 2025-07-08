@@ -45,19 +45,19 @@ Generalized Space-Gambling Probabilities:
           <div style="margin-left:0.25em; text-align:left;  font-size:0.8em; padding:1px;">Output</div>
         </th>
         <th style="border:1px solid #444444; background-color:#3a3a3a; padding:1px; vertical-align: middle; text-align: center;">
-          <img src="./graphics/std-qualities/quality-normal.png" width="32" height="32" alt="Normal" />
+          <img src="./graphics/std-qualities/quality-quality-normal.png" width="32" height="32" alt="Normal" />
         </th>
         <th style="border:1px solid #444444; background-color:#3a3a3a; padding:1px; vertical-align: middle; text-align: center;">
-          <img src="./graphics/std-qualities/quality-uncommon.png" width="32" height="32" alt="Uncommon" />
+          <img src="./graphics/std-qualities/quality-quality-uncommon.png" width="32" height="32" alt="Uncommon" />
         </th>
         <th style="border:1px solid #444444; background-color:#3a3a3a; padding:1px; vertical-align: middle; text-align: center;">
-          <img src="./graphics/std-qualities/quality-rare.png" width="32" height="32" alt="Rare" />
+          <img src="./graphics/std-qualities/quality-quality-rare.png" width="32" height="32" alt="Rare" />
         </th>
         <th style="border:1px solid #444444; background-color:#3a3a3a; padding:1px; vertical-align: middle; text-align: center;">
-          <img src="./graphics/std-qualities/quality-epic.png" width="32" height="32" alt="Epic" />
+          <img src="./graphics/std-qualities/quality-quality-epic.png" width="32" height="32" alt="Epic" />
         </th>
         <th style="border:1px solid #444444; background-color:#3a3a3a; padding:1px; vertical-align: middle; text-align: center;">
-          <img src="./graphics/std-qualities/quality-legendary.png" width="32" height="32" alt="Legendary" />
+          <img src="./graphics/std-qualities/quality-quality-legendary.png" width="32" height="32" alt="Legendary" />
         </th>
         <th style="border:1px solid #444444; background-color:#3a3a3a; padding:1px; vertical-align: middle; text-align: center;">
           <img src="./graphics/icons/quality-mythical.png" width="32" height="32" alt="Mythical" />
@@ -75,7 +75,7 @@ Generalized Space-Gambling Probabilities:
     </thead>
     <tbody>    <tr>
         <th style="border:1px solid #444444; background-color:#3a3a3a; padding:8px; vertical-align: middle; text-align: center;">
-          <img src="./graphics/std-qualities/normal.png" width="32" height="32" alt="Normal"  />
+          <img src="./graphics/std-qualities/quality-normal.png" width="32" height="32" alt="Normal"  />
         </th>
           <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">1 – Q</td>
           <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">Q * 9/10</td>
@@ -87,7 +87,7 @@ Generalized Space-Gambling Probabilities:
           <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">Q * 9/10000000</td>
           <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">Q * 1/10000000</td>    </tr>    <tr>
         <th style="border:1px solid #444444; background-color:#3a3a3a; padding:8px; vertical-align: middle; text-align: center;">
-          <img src="./graphics/std-qualities/uncommon.png" width="32" height="32" alt="Uncommon"  />
+          <img src="./graphics/std-qualities/quality-uncommon.png" width="32" height="32" alt="Uncommon"  />
         </th>
           <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">–</td>
           <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">1 – Q</td>
@@ -99,7 +99,7 @@ Generalized Space-Gambling Probabilities:
           <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">Q * 9/1000000</td>
           <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">Q * 1/1000000</td>    </tr>    <tr>
         <th style="border:1px solid #444444; background-color:#3a3a3a; padding:8px; vertical-align: middle; text-align: center;">
-          <img src="./graphics/std-qualities/rare.png" width="32" height="32" alt="Rare"  />
+          <img src="./graphics/std-qualities/quality-rare.png" width="32" height="32" alt="Rare"  />
         </th>
           <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">–</td>
           <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">–</td>
@@ -111,7 +111,7 @@ Generalized Space-Gambling Probabilities:
           <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">Q * 9/100000</td>
           <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">Q * 1/100000</td>    </tr>    <tr>
         <th style="border:1px solid #444444; background-color:#3a3a3a; padding:8px; vertical-align: middle; text-align: center;">
-          <img src="./graphics/std-qualities/epic.png" width="32" height="32" alt="Epic"  />
+          <img src="./graphics/std-qualities/quality-epic.png" width="32" height="32" alt="Epic"  />
         </th>
           <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">–</td>
           <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">–</td>
@@ -123,7 +123,7 @@ Generalized Space-Gambling Probabilities:
           <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">Q * 9/10000</td>
           <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">Q * 1/10000</td>    </tr>    <tr>
         <th style="border:1px solid #444444; background-color:#3a3a3a; padding:8px; vertical-align: middle; text-align: center;">
-          <img src="./graphics/std-qualities/legendary.png" width="32" height="32" alt="Legendary"  />
+          <img src="./graphics/std-qualities/quality-legendary.png" width="32" height="32" alt="Legendary"  />
         </th>
           <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">–</td>
           <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">–</td>
@@ -222,19 +222,19 @@ Fixed Space-Gambling Probabilities (Assuming 24.8% Quality)
           <div style="margin-left:0.25em; text-align:left;  font-size:0.8em; padding:1px;">Output</div>
         </th>
         <th style="border:1px solid #444444; background-color:#3a3a3a; padding:1px; vertical-align: middle; text-align: center;">
-          <img src="./graphics/std-qualities/normal.png" width="32" height="32" alt="Normal" />
+          <img src="./graphics/std-qualities/quality-normal.png" width="32" height="32" alt="Normal" />
         </th>
         <th style="border:1px solid #444444; background-color:#3a3a3a; padding:1px; vertical-align: middle; text-align: center;">
-          <img src="./graphics/std-qualities/uncommon.png" width="32" height="32" alt="Uncommon" />
+          <img src="./graphics/std-qualities/quality-uncommon.png" width="32" height="32" alt="Uncommon" />
         </th>
         <th style="border:1px solid #444444; background-color:#3a3a3a; padding:1px; vertical-align: middle; text-align: center;">
-          <img src="./graphics/std-qualities/rare.png" width="32" height="32" alt="Rare" />
+          <img src="./graphics/std-qualities/quality-rare.png" width="32" height="32" alt="Rare" />
         </th>
         <th style="border:1px solid #444444; background-color:#3a3a3a; padding:1px; vertical-align: middle; text-align: center;">
-          <img src="./graphics/std-qualities/epic.png" width="32" height="32" alt="Epic" />
+          <img src="./graphics/std-qualities/quality-epic.png" width="32" height="32" alt="Epic" />
         </th>
         <th style="border:1px solid #444444; background-color:#3a3a3a; padding:1px; vertical-align: middle; text-align: center;">
-          <img src="./graphics/std-qualities/legendary.png" width="32" height="32" alt="Legendary" />
+          <img src="./graphics/std-qualities/quality-legendary.png" width="32" height="32" alt="Legendary" />
         </th>
         <th style="border:1px solid #444444; background-color:#3a3a3a; padding:1px; vertical-align: middle; text-align: center;">
           <img src="./graphics/icons/quality-mythical.png" width="32" height="32" alt="Mythical" />
@@ -252,7 +252,7 @@ Fixed Space-Gambling Probabilities (Assuming 24.8% Quality)
     </thead>
     <tbody>    <tr>
         <th style="border:1px solid #444444; background-color:#3a3a3a; padding:8px; vertical-align: middle; text-align: center;">
-          <img src="./graphics/std-qualities/normal.png" width="32" height="32" alt="Normal" />
+          <img src="./graphics/std-qualities/quality-normal.png" width="32" height="32" alt="Normal" />
         </th>
         <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">75.2000%</td>
         <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">22.3200%</td>
@@ -264,7 +264,7 @@ Fixed Space-Gambling Probabilities (Assuming 24.8% Quality)
         <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">0.0000%</td>
         <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">0.0000%</td>    </tr>    <tr>
         <th style="border:1px solid #444444; background-color:#3a3a3a; padding:8px; vertical-align: middle; text-align: center;">
-          <img src="./graphics/std-qualities/uncommon.png" width="32" height="32" alt="Uncommon" />
+          <img src="./graphics/std-qualities/quality-uncommon.png" width="32" height="32" alt="Uncommon" />
         </th>
         <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">–</td>
         <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">75.2000%</td>
@@ -276,7 +276,7 @@ Fixed Space-Gambling Probabilities (Assuming 24.8% Quality)
         <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">0.0002%</td>
         <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">0.0000%</td>    </tr>    <tr>
         <th style="border:1px solid #444444; background-color:#3a3a3a; padding:8px; vertical-align: middle; text-align: center;">
-          <img src="./graphics/std-qualities/rare.png" width="32" height="32" alt="Rare" />
+          <img src="./graphics/std-qualities/quality-rare.png" width="32" height="32" alt="Rare" />
         </th>
         <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">–</td>
         <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">–</td>
@@ -288,7 +288,7 @@ Fixed Space-Gambling Probabilities (Assuming 24.8% Quality)
         <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">0.0022%</td>
         <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">0.0002%</td>    </tr>    <tr>
         <th style="border:1px solid #444444; background-color:#3a3a3a; padding:8px; vertical-align: middle; text-align: center;">
-          <img src="./graphics/std-qualities/epic.png" width="32" height="32" alt="Epic" />
+          <img src="./graphics/std-qualities/quality-epic.png" width="32" height="32" alt="Epic" />
         </th>
         <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">–</td>
         <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">–</td>
@@ -300,7 +300,7 @@ Fixed Space-Gambling Probabilities (Assuming 24.8% Quality)
         <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">0.0223%</td>
         <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">0.0025%</td>    </tr>    <tr>
         <th style="border:1px solid #444444; background-color:#3a3a3a; padding:8px; vertical-align: middle; text-align: center;">
-          <img src="./graphics/std-qualities/legendary.png" width="32" height="32" alt="Legendary" />
+          <img src="./graphics/std-qualities/quality-legendary.png" width="32" height="32" alt="Legendary" />
         </th>
         <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">–</td>
         <td style="border:1px solid #444444; padding:4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size:0.8em;">–</td>
