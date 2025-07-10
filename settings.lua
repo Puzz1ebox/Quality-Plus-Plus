@@ -10,7 +10,7 @@ local default_levels = {
 local default_next_prob = {
   mythical   = 0.10,
   masterwork = 0.10,
-  wondrous   = 0.05,
+  wondrous   = 0.10,
   artifactual= 0.00,
 }
 local default_beacon = {

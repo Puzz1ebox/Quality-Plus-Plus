@@ -1,17 +1,18 @@
 {
   "name": "Quality-Plus-Plus",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "factorio_version": "2.0",
-  "title": "Quality++",
+  "title": "Quality++  |  Extended Qualities",
   "author": "Puzz1ebox",
   "homepage": "",
   "license": "MIT",
-  "description": "This mod was designed to expand the existing quality system. \nIt currently adds 4 different qualities to the game: Mythical, Masterwork, Wondrous, and Artifactual. \nThe goal of this mod is to offer more options for late-game resource sinks without divesting far from the original Factorio intent or art style. \nLooking for testers to determine if this is balanced. ",
+  "description": "An expansion to the quality system in Factorio.",
   "quality_required": true,
   "dependencies": [
     "base >= 2.0",
     "quality >= 2.0",
     "space-age >= 2.0",
+    "? Quality-Plus-Plus-Shiny-Mechanics",
     "? customizable-quality-names"
   ]
 }

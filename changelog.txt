@@ -1,4 +1,10 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.0.9
+Date: 07JUL25
+  Changes:
+    - Slightly adjusted default next_probabiity from Wondrous -> Artifactual
+    - Adjusted the name of the mod. There is a need to seperate functionality into multiple mods.
+---------------------------------------------------------------------------------------------------
 Version: 0.0.8
 Date: 07JUL25
   Changes:
