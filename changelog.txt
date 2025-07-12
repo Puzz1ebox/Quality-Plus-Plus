@@ -1,6 +1,19 @@
+Version: 0.0.10
+Date: 12JUL25
+  Changes:
+    - Bug Fixes
+    - --- (u/Ambit205) Correctly identified a bug where configs were not being applied. Fixed.
+    - Balance adjustments
+    - --- All Qualities: Science pack drain adjusted to be = 1 - (level / 100).
+    - --- Mythical: Level has been reduced from 7 to 6
+    - --- Masterwork: Level has been reduced from 10 to 7
+    - --- Wondrous: Level has been reduced from 14 to 8
+    - --- Artifactual: Level has been reduced from 20 to 10
+    - PSA: you can still adjust the levels and parameters to your liking.
+    - Code cleanup
 ---------------------------------------------------------------------------------------------------
 Version: 0.0.9
-Date: 07JUL25
+Date: 10JUL25
   Changes:
     - Slightly adjusted default next_probabiity from Wondrous -> Artifactual
     - Adjusted the name of the mod. There is a need to seperate functionality into multiple mods.

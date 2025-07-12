@@ -2,10 +2,10 @@
 local mod_qualities = {"mythical","masterwork","wondrous","artifactual"}
 
 local default_levels = {
-  mythical   = 7,
-  masterwork = 10,
-  wondrous   = 14,
-  artifactual= 20,
+  mythical   = 6,
+  masterwork = 7,
+  wondrous   = 8,
+  artifactual= 10,
 }
 local default_next_prob = {
   mythical   = 0.10,
@@ -26,10 +26,10 @@ local default_drill = {
   artifactual= 1/20,
 }
 local default_science = {
-  mythical   = 0.93,
-  masterwork = 0.90,
-  wondrous   = 0.86,
-  artifactual= 0.80,
+  mythical   = 1 - (default_levels.mythical / 100),
+  masterwork = 1 - (default_levels.masterwork / 100),
+  wondrous   = 1 - (default_levels.wondrous / 100),
+  artifactual= 1 - (default_levels.artifactual / 100),
 }
 local default_crafting = {
   mythical   = 2/3,

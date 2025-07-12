@@ -1,2 +1,4 @@
 generateTable.py
 quality_table.html
+deploy.sh
+*.zip

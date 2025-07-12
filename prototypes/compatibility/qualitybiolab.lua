@@ -2,64 +2,12 @@ if not mods["QualityBioLab"] then
     return
 end
 
-data:extend({
-    {
-		type = "quality",
-		name = "mythical",
-		level = 7,
-		order = "f",
-		color = {214, 169, 32, 255},
-		next = "masterwork",
-		next_probability = 0.1,
-		subgroup = "qualities",
-		icon = "__Quality-Plus-Plus__/graphics/icons/quality-mythical.png",
-		beacon_power_usage_multiplier = 1/8,
-		mining_drill_resource_drain_multiplier = 1/8,
-		science_pack_drain_multiplier = 40/100,
-		crafting_machine_energy_usage_multiplier = 2/3,
-	},
-	{
-		type = "quality",
-		name = "masterwork",
-		level = 10,
-		order = "g",
-		color = {230, 11, 30, 255},
-		next = "wondrous",
-		next_probability = 0.1,
-		subgroup = "qualities",
-		icon = "__Quality-Plus-Plus__/graphics/icons/quality-masterwork.png",
-		beacon_power_usage_multiplier = 1/10,
-		mining_drill_resource_drain_multiplier = 1/10,
-		science_pack_drain_multiplier = 30/100,
-		crafting_machine_energy_usage_multiplier = 1/2,
-	},
-	{
-		type = "quality",
-		name = "wondrous",
-		level = 14,
-		order = "h",
-		color = {217, 13, 145, 255},
-		next = "artifactual",
-		next_probability = 0.05,
-		subgroup = "qualities",
-		icon = "__Quality-Plus-Plus__/graphics/icons/quality-wondrous.png",
-		beacon_power_usage_multiplier = 1/12,
-		mining_drill_resource_drain_multiplier = 1/12,
-		science_pack_drain_multiplier = 20/100,
-		crafting_machine_energy_usage_multiplier = 1/3,
-	},
-	{
-		type = "quality",
-		name = "artifactual",
-		level = 20,
-		order = "i",
-		color = {98, 181, 179, 255},
-		next_probability = 0.1,
-		subgroup = "qualities",
-		icon = "__Quality-Plus-Plus__/graphics/icons/quality-artifactual.png",
-		beacon_power_usage_multiplier = 1/20,
-		mining_drill_resource_drain_multiplier = 1/20,
-		science_pack_drain_multiplier = 10/100,
-		crafting_machine_energy_usage_multiplier = 1/4,
-	},
-})
+local qualities = {"mythical","masterwork","wondrous","artifactual"}
+
+for idx, q in ipairs(qualities) do
+    local proto = data.raw.quality[q]
+    if proto then
+        proto.science_pack_drain_multiplier          = 1 - .60 - (.10 * (idx-1)) -- ugly fix.
+    end
+end
+
