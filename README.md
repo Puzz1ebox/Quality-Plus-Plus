@@ -10,20 +10,16 @@ Looking for testers to determine if this is balanced.
 
 Generalized Space-Gambling Probabilities:
 
-  <table style="
+  <table tabindex="0" style="
       border-collapse: collapse;
       text-align: center;
       background-color: #2b2b2b;
       color: #c1c1c1;
       line-height: 1.6;
-      table-layout:fixed;
-      width: max-content;
-      max-width: max-content;
-      align-items: center;
-      justify-contents: center;
-      white-space: nowrap; 
-      overflow-x: scroll;
-      font-size: 0.5em;
+      table-layout: fixed;
+      width: 100%;
+      word-break: break-word;
+      font-size: clamp(8px, 1.2vw, 14px);
   ">
     <thead>
       <tr>
@@ -193,14 +189,10 @@ Fixed Space-Gambling Probabilities (Assuming 24.8% Quality)
       background-color: #2b2b2b;
       color: #c1c1c1;
       line-height: 1.6;
-      table-layout:fixed;
-      width:max-content;
-      max-width: max-content;
-      align-items: center;
-      justify-contents: center;
-      white-space: nowrap; 
-      overflow-x: scroll;
-      font-size: 0.5em;
+      table-layout: fixed;
+      width: 100%;
+      word-break: break-word;
+      font-size: clamp(8px, 1.2vw, 14px);
   ">
     <thead>
       <tr>
@@ -378,32 +370,40 @@ It would be wise to reference the default values for many of these properties. M
         science_pack_drain_multiplier: 95/100
 
     Mythical
-        Level: 7
+        Level: 6
         beacon_power_usage_multiplier: 1/8
         mining_drill_resource_drain_multiplier: 1/8
-        science_pack_drain_multiplier: 93/100
+        science_pack_drain_multiplier: 94/100
         crafting_machine_energy_usage_multiplier: 2/3
+        locomotive_power_multiplier: 2.2
+        rolling_stock_max_speed_multiplier: 1.18
 
     Masterwork
-        Level: 10
+        Level: 7
         beacon_power_usage_multiplier: 1/10
         mining_drill_resource_drain_multiplier: 1/10
-        science_pack_drain_multiplier: 90/100
+        science_pack_drain_multiplier: 93/100
         crafting_machine_energy_usage_multiplier: 1/2
+        locomotive_power_multiplier: 2.4
+        rolling_stock_max_speed_multiplier: 1.21
 
     Wondrous
-        Level: 14
+        Level: 8
         beacon_power_usage_multiplier: 1/12
         mining_drill_resource_drain_multiplier: 1/12
-        science_pack_drain_multiplier: 86/100
+        science_pack_drain_multiplier: 92/100
         crafting_machine_energy_usage_multiplier: 1/3
+        locomotive_power_multiplier: 2.6
+        rolling_stock_max_speed_multiplier: 1.24
 
     Artifactual
-        Level: 20
+        Level: 10
         beacon_power_usage_multiplier: 1/20
         mining_drill_resource_drain_multiplier: 1/20
-        science_pack_drain_multiplier: 80/100
+        science_pack_drain_multiplier: 90/100
         crafting_machine_energy_usage_multiplier: 1/4
+        locomotive_power_multiplier: 3.0
+        rolling_stock_max_speed_multiplier: 1.30
 
 
 

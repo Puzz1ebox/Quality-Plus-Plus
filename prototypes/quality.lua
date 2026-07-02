@@ -15,6 +15,8 @@ local quality_defs = {
 		mining_drill_resource_drain_multiplier = 1/8,
 		science_pack_drain_multiplier = 94/100,
 		crafting_machine_energy_usage_multiplier = 2/3,
+		locomotive_power_multiplier=2.2,
+		rolling_stock_max_speed_multiplier=1.18,
 	},
 	masterwork = {
 		type = "quality",
@@ -30,6 +32,8 @@ local quality_defs = {
 		mining_drill_resource_drain_multiplier = 1/10,
 		science_pack_drain_multiplier = 93/100,
 		crafting_machine_energy_usage_multiplier = 1/2,
+		locomotive_power_multiplier=2.4,
+		rolling_stock_max_speed_multiplier=1.21,
 	},
 	wondrous = {
 		type = "quality",
@@ -45,6 +49,8 @@ local quality_defs = {
 		mining_drill_resource_drain_multiplier = 1/12,
 		science_pack_drain_multiplier = 92/100,
 		crafting_machine_energy_usage_multiplier = 1/3,
+		locomotive_power_multiplier=2.6,
+		rolling_stock_max_speed_multiplier=1.24,
 	},
 	artifactual = {
 		type = "quality",
@@ -59,6 +65,8 @@ local quality_defs = {
 		mining_drill_resource_drain_multiplier = 1/20,
 		science_pack_drain_multiplier = 90/100,
 		crafting_machine_energy_usage_multiplier = 1/4,
+		locomotive_power_multiplier=3.0,
+		rolling_stock_max_speed_multiplier=1.30,
 	},
 }
 

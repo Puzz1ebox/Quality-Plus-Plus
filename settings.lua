@@ -1,41 +1,53 @@
 -- Quality ++ settings.lua --
 local mod_qualities = {"mythical","masterwork","wondrous","artifactual"}
 
-local default_levels = {
+local default_level = {
   mythical   = 6,
   masterwork = 7,
   wondrous   = 8,
   artifactual= 10,
 }
-local default_next_prob = {
+local default_next_probability = {
   mythical   = 0.10,
   masterwork = 0.10,
   wondrous   = 0.10,
   artifactual= 0.00,
 }
-local default_beacon = {
+local default_beacon_power_usage_multiplier = {
   mythical   = 1/8,
   masterwork = 1/10,
   wondrous   = 1/12,
   artifactual= 1/20,
 }
-local default_drill = {
+local default_mining_drill_resource_drain_multiplier = {
   mythical   = 1/8,
   masterwork = 1/10,
   wondrous   = 1/12,
   artifactual= 1/20,
 }
-local default_science = {
-  mythical   = 1 - (default_levels.mythical / 100),
-  masterwork = 1 - (default_levels.masterwork / 100),
-  wondrous   = 1 - (default_levels.wondrous / 100),
-  artifactual= 1 - (default_levels.artifactual / 100),
+local default_science_pack_drain_multiplier = {
+  mythical   = 1 - (default_level.mythical / 100),
+  masterwork = 1 - (default_level.masterwork / 100),
+  wondrous   = 1 - (default_level.wondrous / 100),
+  artifactual= 1 - (default_level.artifactual / 100),
 }
-local default_crafting = {
+local default_crafting_machine_energy_usage_multiplier = {
   mythical   = 2/3,
   masterwork = 1/2,
   wondrous   = 1/3,
   artifactual= 1/4,
+}
+local default_locomotive_power = {
+  mythical   = 2.2,
+  masterwork = 2.4,
+  wondrous   = 2.6,
+  artifactual= 3.0,
+}
+local default_rolling_stock_max_speed = {
+  mythical   = 1.18,
+  masterwork = 1.21,
+  wondrous   = 1.24,
+  artifactual= 1.30,
 }
 
 data:extend({
@@ -71,7 +83,7 @@ for i, q in ipairs(mod_qualities) do
       setting_type = "startup",
       order        = i.. "-b-"..q,
       minimum      = 1,
-      default_value= default_levels[q],
+      default_value= default_level[q],
     },
     {
       type         = "double-setting",
@@ -80,7 +92,7 @@ for i, q in ipairs(mod_qualities) do
       order        = i.. "-c-"..q,
       minimum      = 0.0,
       maximum      = 1.0,
-      default_value= default_next_prob[q],
+      default_value= default_next_probability[q],
     },
     {
       type         = "double-setting",
@@ -88,7 +100,7 @@ for i, q in ipairs(mod_qualities) do
       setting_type = "startup",
       order        = i.. "-d-"..q,
       minimum      = 0.0,
-      default_value= default_beacon[q],
+      default_value= default_beacon_power_usage_multiplier[q],
     },
     {
       type         = "double-setting",
@@ -97,7 +109,7 @@ for i, q in ipairs(mod_qualities) do
       order        = i.. "-e-"..q,
       minimum      = 0.0,
       maximum      = 1.0,
-      default_value= default_drill[q],
+      default_value= default_mining_drill_resource_drain_multiplier[q],
     },
     {
       type         = "double-setting",
@@ -106,7 +118,7 @@ for i, q in ipairs(mod_qualities) do
       order        = i.. "-f-"..q,
       minimum      = 0.0,
       maximum      = 1.0,
-      default_value= default_science[q],
+      default_value= default_science_pack_drain_multiplier[q],
     },
     {
       type         = "double-setting",
@@ -114,7 +126,23 @@ for i, q in ipairs(mod_qualities) do
       setting_type = "startup",
       order        = i.. "-g-"..q,
       minimum      = 0.01,
-      default_value= default_crafting[q],
+      default_value= default_crafting_machine_energy_usage_multiplier[q],
+    },
+    {
+      type         = "double-setting",
+      name         = q.."-locomotive-power-multiplier",
+      setting_type = "startup",
+      order        = i.. "-h-"..q,
+      minimum      = 0.01,
+      default_value= default_locomotive_power[q],
+    },
+    {
+      type         = "double-setting",
+      name         = q.."-rolling-stock-max-speed-multiplier",
+      setting_type = "startup",
+      order        = i.. "-i-"..q,
+      minimum      = 0.01,
+      default_value= default_rolling_stock_max_speed[q],
     },
   })
 end

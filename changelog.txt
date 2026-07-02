@@ -1,4 +1,12 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.0.0
+Date: 02JUL26
+  Changes:
+    - Added new locomotive prototype fields to the new quality definitions so they can be explicitly tuned (since the default math is wrong for some reason)..
+    - Cleaned up user config. Added locomotive settings to user config for fine-tuning.
+    - Cleaned up dependencies slightly.
+    - Updated localization.
+---------------------------------------------------------------------------------------------------
 Version: 0.0.12
 Date: 18JUL25
   Changes:

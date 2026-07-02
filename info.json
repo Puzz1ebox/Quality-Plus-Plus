@@ -1,7 +1,7 @@
 {
   "name": "Quality-Plus-Plus",
-  "version": "0.0.12",
-  "factorio_version": "2.0",
+  "version": "1.0.0",
+  "factorio_version": "2.1",
   "title": "Quality++  |  Extended Qualities",
   "author": "Puzz1ebox",
   "homepage": "",
@@ -9,9 +9,9 @@
   "description": "An expansion to the quality system in Factorio.",
   "quality_required": true,
   "dependencies": [
-    "base >= 2.0",
-    "quality >= 2.0",
-    "space-age >= 2.0",
+    "base >= 2.1.0",
+    "quality >= 2.1.0",
+    "recycler >= 2.1.0",
     "? customizable-quality-names"
   ]
 }

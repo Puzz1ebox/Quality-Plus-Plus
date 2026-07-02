@@ -3,3 +3,4 @@ quality_table.html
 deploy.sh
 *.zip
 releases
+reference-api/

@@ -12,6 +12,10 @@ for _, q in ipairs(qualities) do
     proto.science_pack_drain_multiplier          = settings.startup[q.. "-science-pack-drain-multiplier"].value
     proto.crafting_machine_energy_usage_multiplier =
       settings.startup[q .. "-crafting-machine-energy-usage-multiplier"].value
+    proto.locomotive_power_multiplier =
+      settings.startup[q .. "-locomotive-power-multiplier"].value
+    proto.rolling_stock_max_speed_multiplier =
+      settings.startup[q .. "-rolling-stock-max-speed-multiplier"].value
   end
 end
 
