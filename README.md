@@ -6,36 +6,264 @@ It currently adds 4 different qualities to the game: Mythical, Masterwork, Wondr
 
 The goal of this mod is to offer more options for late-game resource sinks without divesting far from the original Factorio intent or art style. 
 
-Looking for testers to determine if this is balanced. 
+Please report issues that you find here. I am more likely to see them here than on the mod portal.
 
 Generalized Space-Gambling Probabilities:
 
-| Input / Output | <img src="./graphics/std-qualities/quality-normal.png" width="32" height="32" alt="Normal" /> | <img src="./graphics/std-qualities/quality-uncommon.png" width="32" height="32" alt="Uncommon" /> | <img src="./graphics/std-qualities/quality-rare.png" width="32" height="32" alt="Rare" /> | <img src="./graphics/std-qualities/quality-epic.png" width="32" height="32" alt="Epic" /> | <img src="./graphics/std-qualities/quality-legendary.png" width="32" height="32" alt="Legendary" /> | <img src="./graphics/icons/quality-mythical.png" width="32" height="32" alt="Mythical" /> | <img src="./graphics/icons/quality-masterwork.png" width="32" height="32" alt="Masterwork" /> | <img src="./graphics/icons/quality-wondrous.png" width="32" height="32" alt="Wondrous" /> | <img src="./graphics/icons/quality-artifactual.png" width="32" height="32" alt="Artifactual" /> |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| <img src="./graphics/std-qualities/quality-normal.png" width="32" height="32" alt="Normal" /> | 1 – Q | Q * 9/10 | Q * 9/100 | Q * 9/1000 | Q * 9/10000 | Q * 9/100000 | Q * 9/1000000 | Q * 9/10000000 | Q * 1/10000000 |
-| <img src="./graphics/std-qualities/quality-uncommon.png" width="32" height="32" alt="Uncommon" /> | – | 1 – Q | Q * 9/10 | Q * 9/100 | Q * 9/1000 | Q * 9/10000 | Q * 9/100000 | Q * 9/1000000 | Q * 1/1000000 |
-| <img src="./graphics/std-qualities/quality-rare.png" width="32" height="32" alt="Rare" /> | – | – | 1 – Q | Q * 9/10 | Q * 9/100 | Q * 9/1000 | Q * 9/10000 | Q * 9/100000 | Q * 1/100000 |
-| <img src="./graphics/std-qualities/quality-epic.png" width="32" height="32" alt="Epic" /> | – | – | – | 1 – Q | Q * 9/10 | Q * 9/100 | Q * 9/1000 | Q * 9/10000 | Q * 1/10000 |
-| <img src="./graphics/std-qualities/quality-legendary.png" width="32" height="32" alt="Legendary" /> | – | – | – | – | 1 – Q | Q * 9/10 | Q * 9/100 | Q * 9/1000 | Q * 1/1000 |
-| <img src="./graphics/icons/quality-mythical.png" width="32" height="32" alt="Mythical" /> | – | – | – | – | – | 1 – Q | Q * 9/10 | Q * 9/100 | Q * 1/100 |
-| <img src="./graphics/icons/quality-masterwork.png" width="32" height="32" alt="Masterwork" /> | – | – | – | – | – | – | 1 – Q | Q * 9/10 | Q * 1/10 |
-| <img src="./graphics/icons/quality-wondrous.png" width="32" height="32" alt="Wondrous" /> | – | – | – | – | – | – | – | 1 – Q | Q |
-| <img src="./graphics/icons/quality-artifactual.png" width="32" height="32" alt="Artifactual" /> | – | – | – | – | – | – | – | – | 1 |    </tr>    </tr>
-
+<table width="100%" style="table-layout: fixed; text-align: center;">
+  <thead>
+    <tr>
+      <th width="10%" align="center" style="text-align: center; vertical-align: middle;">Input / Output</th>
+      <th width="10%" align="center" style="text-align: center; vertical-align: middle;"><div align="center"><img src="./graphics/std-qualities/quality-normal.png" width="32" height="32" alt="Normal" /></div></th>
+      <th width="10%" align="center" style="text-align: center; vertical-align: middle;"><div align="center"><img src="./graphics/std-qualities/quality-uncommon.png" width="32" height="32" alt="Uncommon" /></div></th>
+      <th width="10%" align="center" style="text-align: center; vertical-align: middle;"><div align="center"><img src="./graphics/std-qualities/quality-rare.png" width="32" height="32" alt="Rare" /></div></th>
+      <th width="10%" align="center" style="text-align: center; vertical-align: middle;"><div align="center"><img src="./graphics/std-qualities/quality-epic.png" width="32" height="32" alt="Epic" /></div></th>
+      <th width="10%" align="center" style="text-align: center; vertical-align: middle;"><div align="center"><img src="./graphics/std-qualities/quality-legendary.png" width="32" height="32" alt="Legendary" /></div></th>
+      <th width="10%" align="center" style="text-align: center; vertical-align: middle;"><div align="center"><img src="./graphics/icons/quality-mythical.png" width="32" height="32" alt="Mythical" /></div></th>
+      <th width="10%" align="center" style="text-align: center; vertical-align: middle;"><div align="center"><img src="./graphics/icons/quality-masterwork.png" width="32" height="32" alt="Masterwork" /></div></th>
+      <th width="10%" align="center" style="text-align: center; vertical-align: middle;"><div align="center"><img src="./graphics/icons/quality-wondrous.png" width="32" height="32" alt="Wondrous" /></div></th>
+      <th width="10%" align="center" style="text-align: center; vertical-align: middle;"><div align="center"><img src="./graphics/icons/quality-artifactual.png" width="32" height="32" alt="Artifactual" /></div></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;"><div align="center"><img src="./graphics/std-qualities/quality-normal.png" width="32" height="32" alt="Normal" /></div></td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">1 – Q</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">Q * 9/10</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">Q * 9/100</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">Q * 9/1000</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">Q * 9/10000</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">Q * 9/100000</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">Q * 9/1000000</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">Q * 9/10000000</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">Q * 1/10000000</td>
+    </tr>
+    <tr>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;"><div align="center"><img src="./graphics/std-qualities/quality-uncommon.png" width="32" height="32" alt="Uncommon" /></div></td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">–</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">1 – Q</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">Q * 9/10</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">Q * 9/100</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">Q * 9/1000</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">Q * 9/10000</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">Q * 9/100000</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">Q * 9/1000000</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">Q * 1/1000000</td>
+    </tr>
+    <tr>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;"><div align="center"><img src="./graphics/std-qualities/quality-rare.png" width="32" height="32" alt="Rare" /></div></td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">–</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">–</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">1 – Q</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">Q * 9/10</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">Q * 9/100</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">Q * 9/1000</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">Q * 9/10000</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">Q * 9/100000</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">Q * 1/100000</td>
+    </tr>
+    <tr>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;"><div align="center"><img src="./graphics/std-qualities/quality-epic.png" width="32" height="32" alt="Epic" /></div></td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">–</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">–</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">–</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">1 – Q</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">Q * 9/10</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">Q * 9/100</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">Q * 9/1000</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">Q * 9/10000</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">Q * 1/10000</td>
+    </tr>
+    <tr>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;"><div align="center"><img src="./graphics/std-qualities/quality-legendary.png" width="32" height="32" alt="Legendary" /></div></td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">–</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">–</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">–</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">–</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">1 – Q</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">Q * 9/10</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">Q * 9/100</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">Q * 9/1000</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">Q * 1/1000</td>
+    </tr>
+    <tr>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;"><div align="center"><img src="./graphics/icons/quality-mythical.png" width="32" height="32" alt="Mythical" /></div></td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">–</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">–</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">–</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">–</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">–</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">1 – Q</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">Q * 9/10</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">Q * 9/100</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">Q * 1/100</td>
+    </tr>
+    <tr>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;"><div align="center"><img src="./graphics/icons/quality-masterwork.png" width="32" height="32" alt="Masterwork" /></div></td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">–</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">–</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">–</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">–</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">–</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">–</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">1 – Q</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">Q * 9/10</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">Q * 1/10</td>
+    </tr>
+    <tr>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;"><div align="center"><img src="./graphics/icons/quality-wondrous.png" width="32" height="32" alt="Wondrous" /></div></td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">–</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">–</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">–</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">–</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">–</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">–</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">–</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">1 – Q</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">Q</td>
+    </tr>
+    <tr>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;"><div align="center"><img src="./graphics/icons/quality-artifactual.png" width="32" height="32" alt="Artifactual" /></div></td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">–</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">–</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">–</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">–</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">–</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">–</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">–</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">–</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">1</td>
+    </tr>
+  </tbody>
+</table>
 Fixed Space-Gambling Probabilities (Assuming 24.8% Quality)
 
-| Input / Output | <img src="./graphics/std-qualities/quality-normal.png" width="32" height="32" alt="Normal" /> | <img src="./graphics/std-qualities/quality-uncommon.png" width="32" height="32" alt="Uncommon" /> | <img src="./graphics/std-qualities/quality-rare.png" width="32" height="32" alt="Rare" /> | <img src="./graphics/std-qualities/quality-epic.png" width="32" height="32" alt="Epic" /> | <img src="./graphics/std-qualities/quality-legendary.png" width="32" height="32" alt="Legendary" /> | <img src="./graphics/icons/quality-mythical.png" width="32" height="32" alt="Mythical" /> | <img src="./graphics/icons/quality-masterwork.png" width="32" height="32" alt="Masterwork" /> | <img src="./graphics/icons/quality-wondrous.png" width="32" height="32" alt="Wondrous" /> | <img src="./graphics/icons/quality-artifactual.png" width="32" height="32" alt="Artifactual" /> |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| <img src="./graphics/std-qualities/quality-normal.png" width="32" height="32" alt="Normal" /> | 75.2000% | 22.3200% | 2.2320% | 0.2232% | 0.0223% | 0.0022% | 0.0002% | 0.0000% | 0.0000% |
-| <img src="./graphics/std-qualities/quality-uncommon.png" width="32" height="32" alt="Uncommon" /> | – | 75.2000% | 22.3200% | 2.2320% | 0.2232% | 0.0223% | 0.0022% | 0.0002% | 0.0000% |
-| <img src="./graphics/std-qualities/quality-rare.png" width="32" height="32" alt="Rare" /> | – | – | 75.2000% | 22.3200% | 2.2320% | 0.2232% | 0.0223% | 0.0022% | 0.0002% |
-| <img src="./graphics/std-qualities/quality-epic.png" width="32" height="32" alt="Epic" /> | – | – | – | 75.2000% | 22.3200% | 2.2320% | 0.2232% | 0.0223% | 0.0025% |
-| <img src="./graphics/std-qualities/quality-legendary.png" width="32" height="32" alt="Legendary" /> | – | – | – | – | 75.2000% | 22.3200% | 2.2320% | 0.2232% | 0.0248% |
-| <img src="./graphics/icons/quality-mythical.png" width="32" height="32" alt="Mythical" /> | – | – | – | – | – | 75.2000% | 22.3200% | 2.2320% | 0.2480% |
-| <img src="./graphics/icons/quality-masterwork.png" width="32" height="32" alt="Masterwork" /> | – | – | – | – | – | – | 75.2000% | 22.3200% | 2.4800% |
-| <img src="./graphics/icons/quality-wondrous.png" width="32" height="32" alt="Wondrous" /> | – | – | – | – | – | – | – | 75.2000% | 24.8000% |
-| <img src="./graphics/icons/quality-artifactual.png" width="32" height="32" alt="Artifactual" /> | – | – | – | – | – | – | – | – | 100.0000% |
-
+<table width="100%" style="table-layout: fixed; text-align: center;">
+  <thead>
+    <tr>
+      <th width="10%" align="center" style="text-align: center; vertical-align: middle;">Input / Output</th>
+      <th width="10%" align="center" style="text-align: center; vertical-align: middle;"><div align="center"><img src="./graphics/std-qualities/quality-normal.png" width="32" height="32" alt="Normal" /></div></th>
+      <th width="10%" align="center" style="text-align: center; vertical-align: middle;"><div align="center"><img src="./graphics/std-qualities/quality-uncommon.png" width="32" height="32" alt="Uncommon" /></div></th>
+      <th width="10%" align="center" style="text-align: center; vertical-align: middle;"><div align="center"><img src="./graphics/std-qualities/quality-rare.png" width="32" height="32" alt="Rare" /></div></th>
+      <th width="10%" align="center" style="text-align: center; vertical-align: middle;"><div align="center"><img src="./graphics/std-qualities/quality-epic.png" width="32" height="32" alt="Epic" /></div></th>
+      <th width="10%" align="center" style="text-align: center; vertical-align: middle;"><div align="center"><img src="./graphics/std-qualities/quality-legendary.png" width="32" height="32" alt="Legendary" /></div></th>
+      <th width="10%" align="center" style="text-align: center; vertical-align: middle;"><div align="center"><img src="./graphics/icons/quality-mythical.png" width="32" height="32" alt="Mythical" /></div></th>
+      <th width="10%" align="center" style="text-align: center; vertical-align: middle;"><div align="center"><img src="./graphics/icons/quality-masterwork.png" width="32" height="32" alt="Masterwork" /></div></th>
+      <th width="10%" align="center" style="text-align: center; vertical-align: middle;"><div align="center"><img src="./graphics/icons/quality-wondrous.png" width="32" height="32" alt="Wondrous" /></div></th>
+      <th width="10%" align="center" style="text-align: center; vertical-align: middle;"><div align="center"><img src="./graphics/icons/quality-artifactual.png" width="32" height="32" alt="Artifactual" /></div></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;"><div align="center"><img src="./graphics/std-qualities/quality-normal.png" width="32" height="32" alt="Normal" /></div></td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">75.2000%</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">22.3200%</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">2.2320%</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">0.2232%</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">0.0223%</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">0.0022%</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">0.0002%</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">0.0000%</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">0.0000%</td>
+    </tr>
+    <tr>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;"><div align="center"><img src="./graphics/std-qualities/quality-uncommon.png" width="32" height="32" alt="Uncommon" /></div></td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">–</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">75.2000%</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">22.3200%</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">2.2320%</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">0.2232%</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">0.0223%</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">0.0022%</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">0.0002%</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">0.0000%</td>
+    </tr>
+    <tr>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;"><div align="center"><img src="./graphics/std-qualities/quality-rare.png" width="32" height="32" alt="Rare" /></div></td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">–</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">–</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">75.2000%</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">22.3200%</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">2.2320%</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">0.2232%</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">0.0223%</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">0.0022%</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">0.0002%</td>
+    </tr>
+    <tr>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;"><div align="center"><img src="./graphics/std-qualities/quality-epic.png" width="32" height="32" alt="Epic" /></div></td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">–</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">–</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">–</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">75.2000%</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">22.3200%</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">2.2320%</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">0.2232%</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">0.0223%</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">0.0025%</td>
+    </tr>
+    <tr>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;"><div align="center"><img src="./graphics/std-qualities/quality-legendary.png" width="32" height="32" alt="Legendary" /></div></td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">–</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">–</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">–</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">–</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">75.2000%</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">22.3200%</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">2.2320%</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">0.2232%</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">0.0248%</td>
+    </tr>
+    <tr>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;"><div align="center"><img src="./graphics/icons/quality-mythical.png" width="32" height="32" alt="Mythical" /></div></td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">–</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">–</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">–</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">–</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">–</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">75.2000%</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">22.3200%</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">2.2320%</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">0.2480%</td>
+    </tr>
+    <tr>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;"><div align="center"><img src="./graphics/icons/quality-masterwork.png" width="32" height="32" alt="Masterwork" /></div></td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">–</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">–</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">–</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">–</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">–</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">–</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">75.2000%</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">22.3200%</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">2.4800%</td>
+    </tr>
+    <tr>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;"><div align="center"><img src="./graphics/icons/quality-wondrous.png" width="32" height="32" alt="Wondrous" /></div></td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">–</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">–</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">–</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">–</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">–</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">–</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">–</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">75.2000%</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">24.8000%</td>
+    </tr>
+    <tr>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;"><div align="center"><img src="./graphics/icons/quality-artifactual.png" width="32" height="32" alt="Artifactual" /></div></td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">–</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">–</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">–</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">–</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">–</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">–</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">–</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">–</td>
+      <td width="10%" align="center" style="text-align: center; vertical-align: middle; word-break: break-word; font-size: 0.8em;">100.0000%</td>
+    </tr>
+  </tbody>
+</table>
 
 All qualities are able to be enabled/disabled and have their power modified as deemed necessary by the user.
 
