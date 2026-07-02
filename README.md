@@ -10,11 +10,11 @@ Please report issues that you find. I am more likely to see them here than on th
 
 Generalized Space-Gambling Probabilities:
 
-![Generalized Space-Gambling Probabilities](./table1.svg)
+![Generalized Space-Gambling Probabilities](./dev/info-assets/table1.svg)
 
 Fixed Space-Gambling Probabilities (Assuming 24.8% Quality):
 
-![Fixed Space-Gambling Probabilities](./table2.svg)
+![Fixed Space-Gambling Probabilities](./dev/info-assets/table2.svg)
 
 All qualities are able to be enabled/disabled and have their power modified as deemed necessary by the user.
 
