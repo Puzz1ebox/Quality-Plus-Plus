@@ -8,9 +8,9 @@ local default_level = {
   artifactual= 10,
 }
 local default_next_probability = {
-  mythical   = 0.10,
-  masterwork = 0.10,
-  wondrous   = 0.10,
+  mythical   = 1,
+  masterwork = 1,
+  wondrous   = 1,
   artifactual= 0.00,
 }
 local default_beacon_power_usage_multiplier = {
