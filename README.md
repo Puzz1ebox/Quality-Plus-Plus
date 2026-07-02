@@ -11,7 +11,8 @@ Please report issues that you find. I am more likely to see them here than on th
 Generalized Space-Gambling Probabilities:
 
 ![Generalized Space-Gambling Probabilities](./table1.svg)
-Fixed Space-Gambling Probabilities (Assuming 24.8% Quality)
+
+Fixed Space-Gambling Probabilities (Assuming 24.8% Quality):
 
 ![Fixed Space-Gambling Probabilities](./table2.svg)
 
